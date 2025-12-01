@@ -1,0 +1,623 @@
+:root {
+    --bg-red: #E63946;
+    --card-white: #FFFFFF;
+    --santa-yellow: #FCBF49;
+    --elf-blue: #4D96FF;
+    --answer-hidden: #515151;
+    --answer-revealed: #69F564;
+    --text-dark: #333;
+    --text-light: #f0f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-red);
+    background-image: radial-gradient(circle, var(--card-white) 1px, transparent 1px);
+    background-size: 28px 28px;
+    color: var(--text-dark);
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    /* Prevent scrollbars when scaling */
+}
+
+.intro-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1200;
+}
+
+.intro-overlay.hidden {
+    display: none;
+}
+
+.intro-card {
+    background: var(--card-white);
+    color: var(--text-dark);
+    padding: 36px 32px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    max-width: 480px;
+    width: 90%;
+}
+
+.intro-card h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--bg-red);
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.intro-card p {
+    margin-bottom: 20px;
+}
+
+.intro-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.intro-actions button {
+    background-color: var(--bg-red);
+    color: var(--card-white);
+    border: none;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.intro-actions button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.game-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    /* Fixed base width */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform-origin: center center;
+}
+
+/* Header Styles */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--card-white);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--bg-red);
+}
+
+.title-card .tree-icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.title-card span {
+    font-family: 'Mountains of Christmas', cursive;
+    letter-spacing: 0.5px;
+}
+
+.round-indicator h2 {
+    font-size: 2rem;
+    color: var(--card-white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-buttons button,
+.round-points-buttons button {
+    background-color: var(--card-white);
+    color: var(--bg-red);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.header-buttons button {
+    margin-left: 15px;
+}
+
+#show-answers-btn.active {
+    background-color: var(--answer-hidden);
+    color: var(--card-white);
+}
+
+#help-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+#help-btn .help-short {
+    display: none;
+}
+
+.header-buttons button:hover,
+.round-points-buttons button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-buttons button:active,
+.round-points-buttons button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 640px) {
+    #help-btn {
+        padding: 12px;
+        min-width: 44px;
+        justify-content: center;
+    }
+
+    #help-btn .help-full {
+        display: none;
+    }
+
+    #help-btn .help-short {
+        display: inline;
+    }
+}
+
+/* Content Area Layout */
+.content-area {
+    display: flex;
+    gap: 30px;
+}
+
+/* Game Board (Left Side) */
+.game-board {
+    flex-grow: 1;
+}
+
+.question-card {
+    background-color: var(--card-white);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.question-card h2 {
+    font-size: 1.8rem;
+    color: var(--text-dark);
+}
+
+.answers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Answer Card Structure */
+.answer-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    /* Fixed height for consistent card size */
+    cursor: pointer;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 3px solid transparent;
+    transition: transform 0.35s ease, box-shadow 0.3s, opacity 0.3s;
+}
+
+.card-front {
+    background-color: var(--answer-hidden);
+    color: var(--text-light);
+    z-index: 2;
+    transform: translateX(0);
+}
+
+.card-back {
+    background-color: var(--answer-revealed);
+    color: var(--text-dark);
+    border-color: var(--text-dark);
+    z-index: 1;
+    opacity: 0.95;
+}
+
+.card-back.blank {
+    background-color: #d9d9d9;
+    color: #555;
+    border-color: #888;
+}
+
+.answer-card:hover .card-front {
+    transform: translateX(0) scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.answer-card.revealed .card-front,
+.answer-card.peek .card-front {
+    transform: translateX(105%);
+    box-shadow: none;
+}
+
+.answer-card.revealed .card-back,
+.answer-card.peek .card-back {
+    opacity: 1;
+    animation: sweepReveal 0.35s ease;
+}
+
+.answer-rank {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.answer-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.answer-points {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Side Panel (Right Side) */
+.side-panel {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-card {
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--text-dark);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+}
+
+.score,
+.points-display {
+    font-size: 2rem;
+    font-weight: 700;
+    transition: transform 0.3s;
+}
+
+.strikes-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.strike {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--card-white);
+    color: var(--text-dark);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s, color 0.3s;
+}
+
+.strike:hover {
+    transform: scale(1.1);
+}
+
+.strike.active {
+    background-color: var(--bg-red);
+    color: var(--card-white);
+}
+
+.santa-team {
+    background-color: var(--santa-yellow);
+}
+
+.elf-team {
+    background-color: var(--elf-blue);
+}
+
+.round-points-area {
+    background-color: var(--card-white);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.round-points-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.round-points-header h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+}
+
+.round-points-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.round-points-buttons button {
+    color: #000;
+}
+
+#points-to-santa {
+    background-color: var(--santa-yellow);
+}
+
+#points-to-elf {
+    background-color: var(--elf-blue);
+}
+
+/* NEW: Animations */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes sweepReveal {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+.bump {
+    animation: bump 0.4s ease-out;
+}
+
+/* Lists inside help / language */
+.help-steps-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.help-steps-list p {
+    line-height: 1.5;
+}
+
+.language-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.language-list button {
+    width: 100%;
+    background-color: var(--bg-red);
+    color: var(--card-white);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.language-list button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.modal-actions button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.modal-actions button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#show-answers-confirm {
+    background: var(--bg-red);
+    color: var(--card-white);
+}
+
+#show-answers-cancel {
+    background: var(--card-white);
+    color: var(--text-dark);
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    background-color: var(--card-white);
+    margin: 15% auto;
+    padding: 30px;
+    border: none;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    text-align: center;
+    animation: slideIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#language-modal .modal-content {
+    max-width: 620px;
+}
+
+#show-answers-modal .modal-content {
+    max-width: 540px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: var(--text-dark);
+    text-decoration: none;
+    cursor: pointer;
+}

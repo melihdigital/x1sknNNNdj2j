@@ -1,0 +1,21 @@
+{
+  "name": "Christmas Feud",
+  "short_name": "XmasFeud",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#E63946",
+  "theme_color": "#E63946",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

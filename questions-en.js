@@ -1,0 +1,939 @@
+window.QUESTIONS_EN = [
+    {
+      "id": 1,
+      "question": "What are some parts of Santa’s suit?",
+      "answers": [
+        { "text": "Red Hat", "points": 30 },
+        { "text": "Red Suit/Coat", "points": 25 },
+        { "text": "Black Boots", "points": 15 },
+        { "text": "White Beard", "points": 12 },
+        { "text": "Black Belt", "points": 10 },
+        { "text": "Big Stomach", "points": 5 },
+        { "text": "Gloves/Mittens", "points": 2 },
+        { "text": "Glasses", "points": 1 }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Name a word that has the word 'Snow' in it.",
+      "answers": [
+        { "text": "Snowman", "points": 32 },
+        { "text": "Snowflake", "points": 24 },
+        { "text": "Snowball", "points": 18 },
+        { "text": "Snowfall", "points": 10 },
+        { "text": "Snow Globe", "points": 8 },
+        { "text": "Snow Day", "points": 4 },
+        { "text": "Snow White", "points": 2 },
+        { "text": "Snowmobile", "points": 2 }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What items might you get as a Christmas gift?",
+      "answers": [
+        { "text": "Toys", "points": 35 },
+        { "text": "Clothes/Socks", "points": 25 },
+        { "text": "Gift Cards/Money", "points": 15 },
+        { "text": "Jewelry", "points": 10 },
+        { "text": "Electronics", "points": 8 },
+        { "text": "Perfume/Cologne", "points": 4 },
+        { "text": "Books", "points": 2 },
+        { "text": "Chocolate", "points": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Who is someone you would buy a Christmas present for?",
+      "answers": [
+        { "text": "Spouse/Partner", "points": 30 },
+        { "text": "Children/Kids", "points": 25 },
+        { "text": "Parents", "points": 15 },
+        { "text": "Friend", "points": 12 },
+        { "text": "Sibling", "points": 8 },
+        { "text": "Pet", "points": 5 },
+        { "text": "Teacher", "points": 3 },
+        { "text": "Co-worker", "points": 2 }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Name something red and white you see around Christmas.",
+      "answers": [
+        { "text": "Candy Cane", "points": 35 },
+        { "text": "Santa’s Hat", "points": 25 },
+        { "text": "Santa’s Suit", "points": 15 },
+        { "text": "Stockings", "points": 10 },
+        { "text": "Wrapping Paper", "points": 8 },
+        { "text": "Snowman’s Scarf", "points": 4 },
+        { "text": "Wine", "points": 2 },
+        { "text": "Candle", "points": 1 }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When should you begin decorating for Christmas?",
+      "answers": [
+        { "text": "End of November", "points": 40 },
+        { "text": "December 1st", "points": 25 },
+        { "text": "Two weeks before", "points": 15 },
+        { "text": "A week before", "points": 10 },
+        { "text": "The last week", "points": 5 },
+        { "text": "Christmas Eve", "points": 3 },
+        { "text": "Mid-December", "points": 2 }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What song would be Santa’s ringtone?",
+      "answers": [
+        { "text": "Jingle Bells", "points": 30 },
+        { "text": "Santa Claus is Coming to Town", "points": 25 },
+        { "text": "Ho Ho Ho Sound", "points": 15 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 12 },
+        { "text": "Santa Baby", "points": 10 },
+        { "text": "Sleigh Bells", "points": 5 },
+        { "text": "Last Christmas", "points": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Name something that is really difficult to wrap.",
+      "answers": [
+        { "text": "Bicycle", "points": 35 },
+        { "text": "A Ball (Soccer/Basket)", "points": 20 },
+        { "text": "Stuffed Animal", "points": 15 },
+        { "text": "A Pet", "points": 10 },
+        { "text": "Guitar", "points": 8 },
+        { "text": "Chair/Furniture", "points": 6 },
+        { "text": "Lamp", "points": 4 },
+        { "text": "Golf Clubs", "points": 2 }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Name something you might see on Christmas wrapping paper.",
+      "answers": [
+        { "text": "Santa Claus", "points": 32 },
+        { "text": "Snowflakes", "points": 20 },
+        { "text": "Christmas Tree", "points": 15 },
+        { "text": "Snowman", "points": 12 },
+        { "text": "Candy Cane", "points": 10 },
+        { "text": "Reindeer", "points": 6 },
+        { "text": "Holly", "points": 3 },
+        { "text": "Stockings", "points": 2 }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Who is a popular Christmas character?",
+      "answers": [
+        { "text": "Santa Claus", "points": 40 },
+        { "text": "The Grinch", "points": 20 },
+        { "text": "Rudolph", "points": 15 },
+        { "text": "Frosty the Snowman", "points": 10 },
+        { "text": "Buddy the Elf", "points": 8 },
+        { "text": "Scrooge", "points": 4 },
+        { "text": "Kevin McCallister", "points": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Name a Christmas movie with elves in it.",
+      "answers": [
+        { "text": "Elf", "points": 45 },
+        { "text": "The Santa Clause", "points": 20 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 15 },
+        { "text": "The Christmas Chronicles", "points": 10 },
+        { "text": "Arthur Christmas", "points": 5 },
+        { "text": "The Polar Express", "points": 3 },
+        { "text": "Fred Claus", "points": 2 }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is something normal people do but Santa does not?",
+      "answers": [
+        { "text": "Pay Taxes", "points": 30 },
+        { "text": "Grow Old/Age", "points": 25 },
+        { "text": "Diet/Lose Weight", "points": 15 },
+        { "text": "Get Stuck in Traffic", "points": 10 },
+        { "text": "Buy Gifts", "points": 8 },
+        { "text": "Work all year", "points": 7 },
+        { "text": "Shave", "points": 5 }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the best Christmas movie for kids?",
+      "answers": [
+        { "text": "Home Alone", "points": 30 },
+        { "text": "The Grinch", "points": 25 },
+        { "text": "Elf", "points": 20 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 10 },
+        { "text": "Frosty the Snowman", "points": 8 },
+        { "text": "A Charlie Brown Christmas", "points": 4 },
+        { "text": "The Polar Express", "points": 3 }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What movie can you find on TV all December long?",
+      "answers": [
+        { "text": "Home Alone", "points": 35 },
+        { "text": "Elf", "points": 25 },
+        { "text": "A Christmas Story", "points": 15 },
+        { "text": "Christmas Vacation", "points": 10 },
+        { "text": "It’s A Wonderful Life", "points": 8 },
+        { "text": "White Christmas", "points": 5 },
+        { "text": "The Grinch", "points": 2 }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is something you need to wrap gifts?",
+      "answers": [
+        { "text": "Wrapping Paper", "points": 40 },
+        { "text": "Tape", "points": 30 },
+        { "text": "Scissors", "points": 15 },
+        { "text": "Ribbon/Bow", "points": 10 },
+        { "text": "Gift Tags", "points": 3 },
+        { "text": "Box", "points": 2 }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the most popular Christmas song?",
+      "answers": [
+        { "text": "All I Want for Christmas is You", "points": 30 },
+        { "text": "Jingle Bells", "points": 25 },
+        { "text": "White Christmas", "points": 15 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 10 },
+        { "text": "Frosty the Snowman", "points": 8 },
+        { "text": "Silent Night", "points": 5 },
+        { "text": "Last Christmas", "points": 5 },
+        { "text": "Rockin’ Around the Christmas Tree", "points": 2 }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What do you decorate a Christmas tree with?",
+      "answers": [
+        { "text": "Ornaments/Baubles", "points": 40 },
+        { "text": "Lights", "points": 30 },
+        { "text": "Tinsel", "points": 10 },
+        { "text": "Star/Topper", "points": 10 },
+        { "text": "Ribbon/Garland", "points": 5 },
+        { "text": "Candy Canes", "points": 3 },
+        { "text": "Popcorn String", "points": 2 }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is a famous city to travel to for Christmas?",
+      "answers": [
+        { "text": "New York", "points": 45 },
+        { "text": "Paris", "points": 20 },
+        { "text": "London", "points": 15 },
+        { "text": "Rome", "points": 8 },
+        { "text": "Berlin", "points": 5 },
+        { "text": "Vienna", "points": 4 },
+        { "text": "Chicago", "points": 3 }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What might you find in a stocking on Christmas morning?",
+      "answers": [
+        { "text": "Candy/Chocolate", "points": 35 },
+        { "text": "Small Toys", "points": 20 },
+        { "text": "Socks", "points": 15 },
+        { "text": "Gift Card/Cash", "points": 12 },
+        { "text": "Orange/Fruit", "points": 10 },
+        { "text": "Coal (if naughty)", "points": 5 },
+        { "text": "Toiletries", "points": 3 }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What could Santa do to disguise himself?",
+      "answers": [
+        { "text": "Shave his beard", "points": 40 },
+        { "text": "Change his clothes/suit", "points": 30 },
+        { "text": "Lose weight", "points": 15 },
+        { "text": "Dye his hair", "points": 8 },
+        { "text": "Wear sunglasses", "points": 5 },
+        { "text": "Change his name", "points": 2 }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What might make Mrs. Claus want to leave the North Pole?",
+      "answers": [
+        { "text": "The Cold Weather", "points": 45 },
+        { "text": "Santa (too busy)", "points": 20 },
+        { "text": "Annoying Elves", "points": 15 },
+        { "text": "Reindeer Smell", "points": 10 },
+        { "text": "Isolation/Boredom", "points": 5 },
+        { "text": "No Sunlight", "points": 5 }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What is another name for Santa Claus?",
+      "answers": [
+        { "text": "St. Nicholas/St. Nick", "points": 40 },
+        { "text": "Father Christmas", "points": 25 },
+        { "text": "Kris Kringle", "points": 20 },
+        { "text": "Papa Noel", "points": 8 },
+        { "text": "The Big Guy", "points": 5 },
+        { "text": "Santa", "points": 2 }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What is a Christmas Eve tradition?",
+      "answers": [
+        { "text": "Open one present", "points": 30 },
+        { "text": "Go to Church/Mass", "points": 25 },
+        { "text": "Leave cookies for Santa", "points": 15 },
+        { "text": "Watch a movie", "points": 12 },
+        { "text": "Read a story", "points": 8 },
+        { "text": "Family Dinner", "points": 5 },
+        { "text": "Look at lights", "points": 3 },
+        { "text": "Wear matching pajamas", "points": 2 }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What is something on every Mom’s Christmas list?",
+      "answers": [
+        { "text": "Sleep/Nap", "points": 30 },
+        { "text": "Spa Day/Massage", "points": 25 },
+        { "text": "Jewelry", "points": 15 },
+        { "text": "Gift Card", "points": 10 },
+        { "text": "Wine", "points": 8 },
+        { "text": "Babysitter/Help", "points": 5 },
+        { "text": "Nice Family Photo", "points": 5 },
+        { "text": "Pajamas", "points": 2 }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What is something you might start doing on December 1st?",
+      "answers": [
+        { "text": "Open Advent Calendar", "points": 35 },
+        { "text": "Decorate the tree", "points": 25 },
+        { "text": "Listen to Christmas music", "points": 15 },
+        { "text": "Christmas Shopping", "points": 10 },
+        { "text": "Put up lights", "points": 8 },
+        { "text": "Bake Cookies", "points": 5 },
+        { "text": "Send Cards", "points": 2 }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is a job that requires someone to work on Christmas?",
+      "answers": [
+        { "text": "Doctor/Nurse", "points": 40 },
+        { "text": "Police Officer", "points": 20 },
+        { "text": "Firefighter", "points": 15 },
+        { "text": "Santa Claus", "points": 10 },
+        { "text": "Priest/Pastor", "points": 8 },
+        { "text": "Pilot/Airport Staff", "points": 5 },
+        { "text": "Hotel Staff", "points": 2 }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Name a holiday other than Christmas where people get off work.",
+      "answers": [
+        { "text": "Thanksgiving", "points": 35 },
+        { "text": "New Year's Day", "points": 25 },
+        { "text": "Labor Day", "points": 15 },
+        { "text": "Memorial Day", "points": 10 },
+        { "text": "Independence Day (July 4th)", "points": 8 },
+        { "text": "Easter", "points": 5 },
+        { "text": "Veterans Day", "points": 2 }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "What are some ways to greet someone at Christmas?",
+      "answers": [
+        { "text": "Merry Christmas", "points": 50 },
+        { "text": "Happy Holidays", "points": 30 },
+        { "text": "Season’s Greetings", "points": 10 },
+        { "text": "Feliz Navidad", "points": 5 },
+        { "text": "Happy Christmas", "points": 3 },
+        { "text": "Joy to the World", "points": 2 }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "What are the most common colors during the holiday season?",
+      "answers": [
+        { "text": "Red", "points": 40 },
+        { "text": "Green", "points": 35 },
+        { "text": "White", "points": 10 },
+        { "text": "Gold", "points": 8 },
+        { "text": "Silver", "points": 5 },
+        { "text": "Blue", "points": 2 }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Name a plant you see at Christmas.",
+      "answers": [
+        { "text": "Christmas Tree (Pine/Fir)", "points": 45 },
+        { "text": "Poinsettia", "points": 25 },
+        { "text": "Mistletoe", "points": 15 },
+        { "text": "Holly", "points": 10 },
+        { "text": "Christmas Cactus", "points": 3 },
+        { "text": "Ivy", "points": 2 }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "What are the most common scents found during the holidays?",
+      "answers": [
+        { "text": "Pine/Christmas Tree", "points": 30 },
+        { "text": "Cinnamon", "points": 25 },
+        { "text": "Peppermint", "points": 20 },
+        { "text": "Gingerbread/Cookies", "points": 10 },
+        { "text": "Cranberry", "points": 8 },
+        { "text": "Wood Fire", "points": 5 },
+        { "text": "Vanilla", "points": 2 }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "How many weeks before Christmas should you send out cards?",
+      "answers": [
+        { "text": "Two Weeks", "points": 35 },
+        { "text": "Three Weeks", "points": 30 },
+        { "text": "Four Weeks/One Month", "points": 20 },
+        { "text": "One Week", "points": 10 },
+        { "text": "Five Weeks", "points": 5 }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "What present would you get Santa for Christmas?",
+      "answers": [
+        { "text": "Cookies", "points": 35 },
+        { "text": "New Suit/Boots", "points": 25 },
+        { "text": "A Vacation", "points": 20 },
+        { "text": "A Diet Plan", "points": 10 },
+        { "text": "GPS", "points": 5 },
+        { "text": "Razor", "points": 5 }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "What would you leave out for Santa on Christmas Eve?",
+      "answers": [
+        { "text": "Cookies", "points": 50 },
+        { "text": "Milk", "points": 30 },
+        { "text": "Carrots (for Reindeer)", "points": 10 },
+        { "text": "Whiskey/Beer", "points": 5 },
+        { "text": "Mince Pies", "points": 3 },
+        { "text": "Letter/Note", "points": 2 }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What is something you might do on Christmas Day?",
+      "answers": [
+        { "text": "Open Gifts", "points": 45 },
+        { "text": "Eat/Feast", "points": 25 },
+        { "text": "See Family/Visit", "points": 15 },
+        { "text": "Sleep in/Nap", "points": 8 },
+        { "text": "Go to Church", "points": 5 },
+        { "text": "Watch TV", "points": 2 }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "What is a place that is open on Christmas Day?",
+      "answers": [
+        { "text": "Hospital", "points": 35 },
+        { "text": "Gas Station", "points": 20 },
+        { "text": "Movie Theater", "points": 15 },
+        { "text": "Chinese Restaurant/Fast Food", "points": 12 },
+        { "text": "Hotel", "points": 10 },
+        { "text": "Airport", "points": 5 },
+        { "text": "Church", "points": 3 }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "What is something that should be at every Christmas party?",
+      "answers": [
+        { "text": "Food/Cookies", "points": 30 },
+        { "text": "Music", "points": 20 },
+        { "text": "Christmas Tree", "points": 15 },
+        { "text": "Alcohol/Eggnog", "points": 15 },
+        { "text": "Gifts/Secret Santa", "points": 10 },
+        { "text": "Ugly Sweaters", "points": 5 },
+        { "text": "Mistletoe", "points": 5 }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Name one of Santa's Reindeer.",
+      "answers": [
+        { "text": "Rudolph", "points": 40 },
+        { "text": "Dasher", "points": 15 },
+        { "text": "Dancer", "points": 10 },
+        { "text": "Prancer", "points": 10 },
+        { "text": "Blitzen", "points": 8 },
+        { "text": "Vixen", "points": 7 },
+        { "text": "Cupid", "points": 5 },
+        { "text": "Comet", "points": 5 }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Name a figure you find in a Nativity set.",
+      "answers": [
+        { "text": "Baby Jesus", "points": 40 },
+        { "text": "Mary", "points": 20 },
+        { "text": "Joseph", "points": 15 },
+        { "text": "Wise Men", "points": 10 },
+        { "text": "Angel", "points": 8 },
+        { "text": "Shepherd", "points": 4 },
+        { "text": "Sheep/Donkey", "points": 3 }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "What are common Christmas tree toppers?",
+      "answers": [
+        { "text": "Star", "points": 55 },
+        { "text": "Angel", "points": 35 },
+        { "text": "Bow/Ribbon", "points": 5 },
+        { "text": "Santa", "points": 3 },
+        { "text": "Snowflake", "points": 2 }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "What can you find at the North Pole?",
+      "answers": [
+        { "text": "Snow/Ice", "points": 35 },
+        { "text": "Santa’s Workshop", "points": 25 },
+        { "text": "Elves", "points": 20 },
+        { "text": "Reindeer", "points": 10 },
+        { "text": "Santa Claus", "points": 5 },
+        { "text": "Igloo", "points": 5 }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "What is something you might hear Santa say?",
+      "answers": [
+        { "text": "Ho Ho Ho", "points": 50 },
+        { "text": "Merry Christmas", "points": 30 },
+        { "text": "Have you been good?", "points": 10 },
+        { "text": "On Dasher, On Dancer!", "points": 5 },
+        { "text": "What do you want?", "points": 5 }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "What do Santa, the Tooth Fairy, and the Easter Bunny have in common?",
+      "answers": [
+        { "text": "Bring Gifts/Money", "points": 35 },
+        { "text": "Come at Night", "points": 25 },
+        { "text": "Kids Love Them", "points": 15 },
+        { "text": "Magical/Make-Believe", "points": 15 },
+        { "text": "Sneaky", "points": 10 }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "What is something you do NOT want to open on Christmas morning?",
+      "answers": [
+        { "text": "Underwear", "points": 30 },
+        { "text": "Socks", "points": 25 },
+        { "text": "Coal", "points": 20 },
+        { "text": "Cleaning Supplies", "points": 10 },
+        { "text": "Deodorant/Soap", "points": 8 },
+        { "text": "Homework", "points": 5 },
+        { "text": "Fruitcake", "points": 2 }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Name a food traditionally served for Christmas dinner.",
+      "answers": [
+        { "text": "Turkey", "points": 35 },
+        { "text": "Ham", "points": 30 },
+        { "text": "Mashed Potatoes", "points": 15 },
+        { "text": "Stuffing", "points": 10 },
+        { "text": "Roast Beef", "points": 5 },
+        { "text": "Pie", "points": 3 },
+        { "text": "Cranberry Sauce", "points": 2 }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "What is a drink served at Christmas?",
+      "answers": [
+        { "text": "Eggnog", "points": 40 },
+        { "text": "Hot Chocolate", "points": 25 },
+        { "text": "Wine/Mulled Wine", "points": 15 },
+        { "text": "Apple Cider", "points": 10 },
+        { "text": "Punch", "points": 5 },
+        { "text": "Champagne", "points": 5 }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Name something used to build a snowman.",
+      "answers": [
+        { "text": "Carrot (Nose)", "points": 40 },
+        { "text": "Coal (Eyes/Buttons)", "points": 25 },
+        { "text": "Scarf", "points": 15 },
+        { "text": "Hat/Top Hat", "points": 10 },
+        { "text": "Sticks/Branches (Arms)", "points": 5 },
+        { "text": "Pipe", "points": 3 },
+        { "text": "Rocks/Stones", "points": 2 }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "What is the most popular New Year's resolution?",
+      "answers": [
+        { "text": "Lose Weight / Exercise", "points": 45 },
+        { "text": "Quit Smoking", "points": 20 },
+        { "text": "Save Money", "points": 15 },
+        { "text": "Eat Healthier", "points": 10 },
+        { "text": "Learn a New Hobby", "points": 5 },
+        { "text": "Travel More", "points": 3 },
+        { "text": "Drink Less Alcohol", "points": 2 }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Name a popular game played at Christmas parties.",
+      "answers": [
+        { "text": "Charades", "points": 45 },
+        { "text": "Board Games (Monopoly etc.)", "points": 20 },
+        { "text": "Pictionary", "points": 15 },
+        { "text": "Card Games", "points": 10 },
+        { "text": "White Elephant / Gift Exchange", "points": 5 },
+        { "text": "Musical Chairs", "points": 5 }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Name something you wear outside in the winter.",
+      "answers": [
+        { "text": "Coat / Jacket", "points": 35 },
+        { "text": "Gloves / Mittens", "points": 25 },
+        { "text": "Scarf", "points": 15 },
+        { "text": "Hat / Beanie", "points": 12 },
+        { "text": "Boots", "points": 8 },
+        { "text": "Snow Pants", "points": 3 },
+        { "text": "Earmuffs", "points": 2 }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Name a classic 'Secret Santa' gift.",
+      "answers": [
+        { "text": "Mug / Cup", "points": 35 },
+        { "text": "Candle", "points": 20 },
+        { "text": "Gift Card", "points": 15 },
+        { "text": "Socks", "points": 10 },
+        { "text": "Chocolate", "points": 10 },
+        { "text": "Wine / Alcohol", "points": 5 },
+        { "text": "Soap / Lotion", "points": 5 }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "What does Santa have to do to fit down the chimney?",
+      "answers": [
+        { "text": "Suck in his gut", "points": 40 },
+        { "text": "Use Magic (Touch nose)", "points": 25 },
+        { "text": "Hold his breath", "points": 15 },
+        { "text": "Lose weight", "points": 10 },
+        { "text": "Use Oil/Grease", "points": 5 },
+        { "text": "Shrink", "points": 5 }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "Name the most common trash seen on Christmas morning.",
+      "answers": [
+        { "text": "Wrapping Paper", "points": 50 },
+        { "text": "Ribbons / Bows", "points": 20 },
+        { "text": "Boxes / Cardboard", "points": 15 },
+        { "text": "Pine Needles", "points": 8 },
+        { "text": "Toy Packaging", "points": 5 },
+        { "text": "Food Crumbs", "points": 2 }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "Name a food or drink you buy at a Christmas market.",
+      "answers": [
+        { "text": "Hot Chocolate", "points": 40 },
+        { "text": "Mulled Wine", "points": 25 },
+        { "text": "Gingerbread", "points": 15 },
+        { "text": "Roasted Chestnuts", "points": 10 },
+        { "text": "Hot Dog / Sausage", "points": 5 },
+        { "text": "Eggnog", "points": 5 }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Name something used to decorate a gingerbread house.",
+      "answers": [
+        { "text": "Candy / Gumdrops", "points": 35 },
+        { "text": "Icing / Frosting", "points": 30 },
+        { "text": "Candy Canes", "points": 15 },
+        { "text": "Chocolate", "points": 10 },
+        { "text": "Peppermints", "points": 8 },
+        { "text": "Powdered Sugar", "points": 2 }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "What do people do at exactly midnight on New Year's Eve?",
+      "answers": [
+        { "text": "Kiss Someone", "points": 45 },
+        { "text": "Toast / Drink Champagne", "points": 25 },
+        { "text": "Scream / Cheer", "points": 10 },
+        { "text": "Countdown", "points": 10 },
+        { "text": "Sing 'Auld Lang Syne'", "points": 5 },
+        { "text": "Throw Confetti", "points": 5 }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Name something on the Christmas tree that isn't a gift.",
+      "answers": [
+        { "text": "Ornaments / Baubles", "points": 45 },
+        { "text": "Lights", "points": 25 },
+        { "text": "Star / Angel Topper", "points": 15 },
+        { "text": "Tinsel / Garland", "points": 10 },
+        { "text": "Candy Cane", "points": 5 }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Name a job performed by Santa's elves.",
+      "answers": [
+        { "text": "Making Toys", "points": 55 },
+        { "text": "Wrapping Gifts", "points": 20 },
+        { "text": "Taking care of Reindeer", "points": 10 },
+        { "text": "Loading the Sleigh", "points": 8 },
+        { "text": "Sorting Mail", "points": 5 },
+        { "text": "Checking Naughty List", "points": 2 }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "If a house has no chimney, how does Santa get in?",
+      "answers": [
+        { "text": "Front Door", "points": 35 },
+        { "text": "Magic Key", "points": 30 },
+        { "text": "Window", "points": 20 },
+        { "text": "Makes a Chimney (Magic)", "points": 10 },
+        { "text": "Garage", "points": 5 }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Name something popular to watch on TV during the holidays.",
+      "answers": [
+        { "text": "Times Square Ball Drop", "points": 35 },
+        { "text": "Christmas Movies", "points": 25 },
+        { "text": "Football Games", "points": 15 },
+        { "text": "Parades", "points": 15 },
+        { "text": "The Queen/King's Speech", "points": 5 },
+        { "text": "Concerts", "points": 5 }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "How do you react when you get a gift you don't like?",
+      "answers": [
+        { "text": "Smile and say Thanks", "points": 50 },
+        { "text": "Say 'It's what I needed'", "points": 20 },
+        { "text": "Pretend to be surprised", "points": 15 },
+        { "text": "Plan to return/exchange", "points": 10 },
+        { "text": "Ask for the receipt", "points": 5 }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Name something kids love to do when it snows.",
+      "answers": [
+        { "text": "Build a Snowman", "points": 35 },
+        { "text": "Snowball Fight", "points": 30 },
+        { "text": "Sledding", "points": 20 },
+        { "text": "Make Snow Angels", "points": 10 },
+        { "text": "Build a Fort/Igloo", "points": 5 }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "If Santa's sleigh breaks down, what might he use to deliver gifts?",
+      "answers": [
+        { "text": "Truck / Van", "points": 30 },
+        { "text": "Helicopter", "points": 25 },
+        { "text": "Airplane", "points": 20 },
+        { "text": "Car / Taxi / Uber", "points": 15 },
+        { "text": "Motorcycle", "points": 5 },
+        { "text": "Parachute", "points": 5 }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Name a snack often found in bowls during the holidays.",
+      "answers": [
+        { "text": "Popcorn", "points": 25 },
+        { "text": "Nuts (Peanuts/Walnuts)", "points": 20 },
+        { "text": "Candy / Candy Canes", "points": 20 },
+        { "text": "Cookies", "points": 15 },
+        { "text": "Chocolate", "points": 15 },
+        { "text": "Chips / Pretzels", "points": 5 }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Name a feeling people have after the holidays are over.",
+      "answers": [
+        { "text": "Tired / Exhausted", "points": 35 },
+        { "text": "Sad / Depressed", "points": 25 },
+        { "text": "Bloated / Fat", "points": 20 },
+        { "text": "Broke / No Money", "points": 15 },
+        { "text": "Relieved", "points": 5 }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "What needs to happen for school to be cancelled (Snow Day)?",
+      "answers": [
+        { "text": "Heavy Snowfall", "points": 50 },
+        { "text": "Icy Roads", "points": 20 },
+        { "text": "Blizzard / Storm", "points": 15 },
+        { "text": "Extreme Cold", "points": 10 },
+        { "text": "Power Outage", "points": 5 }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Name a sport that requires snow.",
+      "answers": [
+        { "text": "Skiing", "points": 45 },
+        { "text": "Snowboarding", "points": 30 },
+        { "text": "Sledding", "points": 10 },
+        { "text": "Ice Hockey", "points": 8 },
+        { "text": "Ice Skating", "points": 5 },
+        { "text": "Snowshoeing", "points": 2 }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Name a pie that is often served during the holidays.",
+      "answers": [
+        { "text": "Pumpkin Pie", "points": 40 },
+        { "text": "Apple Pie", "points": 25 },
+        { "text": "Pecan Pie", "points": 15 },
+        { "text": "Mince Pie", "points": 10 },
+        { "text": "Cherry Pie", "points": 5 },
+        { "text": "Sweet Potato Pie", "points": 5 }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "Name something at the top of a woman’s Christmas list.",
+      "answers": [
+        { "text": "Jewelry", "points": 40 },
+        { "text": "Gift Card / Money", "points": 20 },
+        { "text": "Perfume", "points": 15 },
+        { "text": "Clothes / Bag", "points": 10 },
+        { "text": "Vacation", "points": 8 },
+        { "text": "Spa Day", "points": 7 }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "What kind of animal or bird is associated with Christmas?",
+      "answers": [
+        { "text": "Reindeer", "points": 50 },
+        { "text": "Polar Bear", "points": 15 },
+        { "text": "Penguin", "points": 10 },
+        { "text": "Turkey", "points": 10 },
+        { "text": "Robin", "points": 5 },
+        { "text": "Dove", "points": 5 },
+        { "text": "Donkey", "points": 5 }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Name a traditional Christmas breakfast food.",
+      "answers": [
+        { "text": "Pancakes", "points": 35 },
+        { "text": "Cinnamon Rolls", "points": 25 },
+        { "text": "Eggs and Bacon", "points": 20 },
+        { "text": "French Toast", "points": 10 },
+        { "text": "Breakfast Casserole", "points": 5 },
+        { "text": "Waffles", "points": 5 }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "Name something you love about Christmas.",
+      "answers": [
+        { "text": "Spending time with Family", "points": 40 },
+        { "text": "Presents / Gifts", "points": 20 },
+        { "text": "Food", "points": 15 },
+        { "text": "Lights / Decorations", "points": 10 },
+        { "text": "Time off work", "points": 10 },
+        { "text": "Christmas Music", "points": 5 }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Name something people pose in front of for their Christmas photos.",
+      "answers": [
+        { "text": "Christmas Tree", "points": 55 },
+        { "text": "Fireplace", "points": 20 },
+        { "text": "Santa Claus", "points": 10 },
+        { "text": "House / Lights", "points": 8 },
+        { "text": "Snow / Outdoors", "points": 5 },
+        { "text": "Wreath", "points": 2 }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Name a store that gets busy during Christmas.",
+      "answers": [
+        { "text": "Walmart", "points": 35 },
+        { "text": "Target", "points": 25 },
+        { "text": "Macy's", "points": 15 },
+        { "text": "Best Buy", "points": 10 },
+        { "text": "Costco", "points": 8 },
+        { "text": "Apple Store", "points": 5 },
+        { "text": "Toys 'R' Us", "points": 2 }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Name something people complain about during Christmas.",
+      "answers": [
+        { "text": "Spending Money / Cost", "points": 35 },
+        { "text": "Crowds / Traffic", "points": 25 },
+        { "text": "Gaining Weight", "points": 15 },
+        { "text": "Stress / Shopping", "points": 10 },
+        { "text": "Cold Weather", "points": 10 },
+        { "text": "Cleaning Up", "points": 5 }
+      ]
+    }
+];
