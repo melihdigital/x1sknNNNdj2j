@@ -3,12 +3,12 @@ window.QUESTIONS_EN = [
       "id": 1,
       "question": "What are some parts of Santa’s suit?",
       "answers": [
-        { "text": "Red Hat", "points": 30 },
-        { "text": "Red Suit/Coat", "points": 25 },
-        { "text": "Black Boots", "points": 15 },
-        { "text": "White Beard", "points": 12 },
-        { "text": "Black Belt", "points": 10 },
-        { "text": "Big Stomach", "points": 5 },
+        { "text": "Red Hat", "points": 34 },
+        { "text": "Red Suit/Coat", "points": 26 },
+        { "text": "Black Boots", "points": 14 },
+        { "text": "White Beard", "points": 11 },
+        { "text": "Black Belt", "points": 8 },
+        { "text": "Big Stomach", "points": 4 },
         { "text": "Gloves/Mittens", "points": 2 },
         { "text": "Glasses", "points": 1 }
       ]
@@ -17,12 +17,12 @@ window.QUESTIONS_EN = [
       "id": 2,
       "question": "Name a word that has the word 'Snow' in it.",
       "answers": [
-        { "text": "Snowman", "points": 32 },
-        { "text": "Snowflake", "points": 24 },
-        { "text": "Snowball", "points": 18 },
-        { "text": "Snowfall", "points": 10 },
-        { "text": "Snow Globe", "points": 8 },
-        { "text": "Snow Day", "points": 4 },
+        { "text": "Snowman", "points": 31 },
+        { "text": "Snowflake", "points": 23 },
+        { "text": "Snowball", "points": 19 },
+        { "text": "Snowfall", "points": 11 },
+        { "text": "Snow Globe", "points": 7 },
+        { "text": "Snow Day", "points": 5 },
         { "text": "Snow White", "points": 2 },
         { "text": "Snowmobile", "points": 2 }
       ]
@@ -31,12 +31,12 @@ window.QUESTIONS_EN = [
       "id": 3,
       "question": "What items might you get as a Christmas gift?",
       "answers": [
-        { "text": "Toys", "points": 35 },
-        { "text": "Clothes/Socks", "points": 25 },
-        { "text": "Gift Cards/Money", "points": 15 },
-        { "text": "Jewelry", "points": 10 },
-        { "text": "Electronics", "points": 8 },
-        { "text": "Perfume/Cologne", "points": 4 },
+        { "text": "Toys", "points": 38 },
+        { "text": "Clothes/Socks", "points": 24 },
+        { "text": "Gift Cards/Money", "points": 16 },
+        { "text": "Jewelry", "points": 9 },
+        { "text": "Electronics", "points": 7 },
+        { "text": "Perfume/Cologne", "points": 3 },
         { "text": "Books", "points": 2 },
         { "text": "Chocolate", "points": 1 }
       ]
@@ -45,13 +45,13 @@ window.QUESTIONS_EN = [
       "id": 4,
       "question": "Who is someone you would buy a Christmas present for?",
       "answers": [
-        { "text": "Spouse/Partner", "points": 30 },
-        { "text": "Children/Kids", "points": 25 },
-        { "text": "Parents", "points": 15 },
-        { "text": "Friend", "points": 12 },
-        { "text": "Sibling", "points": 8 },
-        { "text": "Pet", "points": 5 },
-        { "text": "Teacher", "points": 3 },
+        { "text": "Spouse/Partner", "points": 33 },
+        { "text": "Children/Kids", "points": 27 },
+        { "text": "Parents", "points": 14 },
+        { "text": "Friend", "points": 11 },
+        { "text": "Sibling", "points": 7 },
+        { "text": "Pet", "points": 4 },
+        { "text": "Teacher", "points": 2 },
         { "text": "Co-worker", "points": 2 }
       ]
     },
@@ -59,25 +59,25 @@ window.QUESTIONS_EN = [
       "id": 5,
       "question": "Name something red and white you see around Christmas.",
       "answers": [
-        { "text": "Candy Cane", "points": 35 },
-        { "text": "Santa’s Hat", "points": 25 },
-        { "text": "Santa’s Suit", "points": 15 },
-        { "text": "Stockings", "points": 10 },
-        { "text": "Wrapping Paper", "points": 8 },
+        { "text": "Candy Cane", "points": 36 },
+        { "text": "Santa’s Hat", "points": 24 },
+        { "text": "Santa’s Suit", "points": 16 },
+        { "text": "Stockings", "points": 9 },
+        { "text": "Wrapping Paper", "points": 7 },
         { "text": "Snowman’s Scarf", "points": 4 },
         { "text": "Wine", "points": 2 },
-        { "text": "Candle", "points": 1 }
+        { "text": "Candle", "points": 2 }
       ]
     },
     {
       "id": 6,
       "question": "When should you begin decorating for Christmas?",
       "answers": [
-        { "text": "End of November", "points": 40 },
-        { "text": "December 1st", "points": 25 },
-        { "text": "Two weeks before", "points": 15 },
-        { "text": "A week before", "points": 10 },
-        { "text": "The last week", "points": 5 },
+        { "text": "End of November", "points": 43 },
+        { "text": "December 1st", "points": 24 },
+        { "text": "Two weeks before", "points": 13 },
+        { "text": "A week before", "points": 9 },
+        { "text": "The last week", "points": 6 },
         { "text": "Christmas Eve", "points": 3 },
         { "text": "Mid-December", "points": 2 }
       ]
@@ -86,12 +86,12 @@ window.QUESTIONS_EN = [
       "id": 7,
       "question": "What song would be Santa’s ringtone?",
       "answers": [
-        { "text": "Jingle Bells", "points": 30 },
-        { "text": "Santa Claus is Coming to Town", "points": 25 },
-        { "text": "Ho Ho Ho Sound", "points": 15 },
-        { "text": "Rudolph the Red-Nosed Reindeer", "points": 12 },
-        { "text": "Santa Baby", "points": 10 },
-        { "text": "Sleigh Bells", "points": 5 },
+        { "text": "Jingle Bells", "points": 28 },
+        { "text": "Santa Claus is Coming to Town", "points": 26 },
+        { "text": "Ho Ho Ho Sound", "points": 17 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 11 },
+        { "text": "Santa Baby", "points": 9 },
+        { "text": "Sleigh Bells", "points": 6 },
         { "text": "Last Christmas", "points": 3 }
       ]
     },
@@ -99,11 +99,11 @@ window.QUESTIONS_EN = [
       "id": 8,
       "question": "Name something that is really difficult to wrap.",
       "answers": [
-        { "text": "Bicycle", "points": 35 },
-        { "text": "A Ball (Soccer/Basket)", "points": 20 },
-        { "text": "Stuffed Animal", "points": 15 },
-        { "text": "A Pet", "points": 10 },
-        { "text": "Guitar", "points": 8 },
+        { "text": "Bicycle", "points": 37 },
+        { "text": "A Ball (Soccer/Basket)", "points": 21 },
+        { "text": "Stuffed Animal", "points": 14 },
+        { "text": "A Pet", "points": 9 },
+        { "text": "Guitar", "points": 7 },
         { "text": "Chair/Furniture", "points": 6 },
         { "text": "Lamp", "points": 4 },
         { "text": "Golf Clubs", "points": 2 }
@@ -113,13 +113,13 @@ window.QUESTIONS_EN = [
       "id": 9,
       "question": "Name something you might see on Christmas wrapping paper.",
       "answers": [
-        { "text": "Santa Claus", "points": 32 },
-        { "text": "Snowflakes", "points": 20 },
-        { "text": "Christmas Tree", "points": 15 },
-        { "text": "Snowman", "points": 12 },
-        { "text": "Candy Cane", "points": 10 },
-        { "text": "Reindeer", "points": 6 },
-        { "text": "Holly", "points": 3 },
+        { "text": "Santa Claus", "points": 34 },
+        { "text": "Snowflakes", "points": 21 },
+        { "text": "Christmas Tree", "points": 14 },
+        { "text": "Snowman", "points": 11 },
+        { "text": "Candy Cane", "points": 9 },
+        { "text": "Reindeer", "points": 7 },
+        { "text": "Holly", "points": 2 },
         { "text": "Stockings", "points": 2 }
       ]
     },
@@ -127,11 +127,11 @@ window.QUESTIONS_EN = [
       "id": 10,
       "question": "Who is a popular Christmas character?",
       "answers": [
-        { "text": "Santa Claus", "points": 40 },
-        { "text": "The Grinch", "points": 20 },
-        { "text": "Rudolph", "points": 15 },
-        { "text": "Frosty the Snowman", "points": 10 },
-        { "text": "Buddy the Elf", "points": 8 },
+        { "text": "Santa Claus", "points": 42 },
+        { "text": "The Grinch", "points": 19 },
+        { "text": "Rudolph", "points": 14 },
+        { "text": "Frosty the Snowman", "points": 11 },
+        { "text": "Buddy the Elf", "points": 7 },
         { "text": "Scrooge", "points": 4 },
         { "text": "Kevin McCallister", "points": 3 }
       ]
@@ -140,12 +140,12 @@ window.QUESTIONS_EN = [
       "id": 11,
       "question": "Name a Christmas movie with elves in it.",
       "answers": [
-        { "text": "Elf", "points": 45 },
-        { "text": "The Santa Clause", "points": 20 },
-        { "text": "Rudolph the Red-Nosed Reindeer", "points": 15 },
-        { "text": "The Christmas Chronicles", "points": 10 },
-        { "text": "Arthur Christmas", "points": 5 },
-        { "text": "The Polar Express", "points": 3 },
+        { "text": "Elf", "points": 48 },
+        { "text": "The Santa Clause", "points": 18 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 13 },
+        { "text": "The Christmas Chronicles", "points": 9 },
+        { "text": "Arthur Christmas", "points": 6 },
+        { "text": "The Polar Express", "points": 4 },
         { "text": "Fred Claus", "points": 2 }
       ]
     },
@@ -153,12 +153,12 @@ window.QUESTIONS_EN = [
       "id": 12,
       "question": "What is something normal people do but Santa does not?",
       "answers": [
-        { "text": "Pay Taxes", "points": 30 },
-        { "text": "Grow Old/Age", "points": 25 },
-        { "text": "Diet/Lose Weight", "points": 15 },
-        { "text": "Get Stuck in Traffic", "points": 10 },
-        { "text": "Buy Gifts", "points": 8 },
-        { "text": "Work all year", "points": 7 },
+        { "text": "Pay Taxes", "points": 33 },
+        { "text": "Grow Old/Age", "points": 24 },
+        { "text": "Diet/Lose Weight", "points": 16 },
+        { "text": "Get Stuck in Traffic", "points": 9 },
+        { "text": "Buy Gifts", "points": 7 },
+        { "text": "Work all year", "points": 6 },
         { "text": "Shave", "points": 5 }
       ]
     },
@@ -166,51 +166,51 @@ window.QUESTIONS_EN = [
       "id": 13,
       "question": "What is the best Christmas movie for kids?",
       "answers": [
-        { "text": "Home Alone", "points": 30 },
-        { "text": "The Grinch", "points": 25 },
-        { "text": "Elf", "points": 20 },
-        { "text": "Rudolph the Red-Nosed Reindeer", "points": 10 },
-        { "text": "Frosty the Snowman", "points": 8 },
-        { "text": "A Charlie Brown Christmas", "points": 4 },
-        { "text": "The Polar Express", "points": 3 }
+        { "text": "Home Alone", "points": 32 },
+        { "text": "The Grinch", "points": 23 },
+        { "text": "Elf", "points": 18 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 11 },
+        { "text": "Frosty the Snowman", "points": 7 },
+        { "text": "A Charlie Brown Christmas", "points": 5 },
+        { "text": "The Polar Express", "points": 4 }
       ]
     },
     {
       "id": 14,
       "question": "What movie can you find on TV all December long?",
       "answers": [
-        { "text": "Home Alone", "points": 35 },
-        { "text": "Elf", "points": 25 },
-        { "text": "A Christmas Story", "points": 15 },
-        { "text": "Christmas Vacation", "points": 10 },
-        { "text": "It’s A Wonderful Life", "points": 8 },
+        { "text": "Home Alone", "points": 37 },
+        { "text": "Elf", "points": 23 },
+        { "text": "A Christmas Story", "points": 14 },
+        { "text": "Christmas Vacation", "points": 11 },
+        { "text": "It’s A Wonderful Life", "points": 7 },
         { "text": "White Christmas", "points": 5 },
-        { "text": "The Grinch", "points": 2 }
+        { "text": "The Grinch", "points": 3 }
       ]
     },
     {
       "id": 15,
       "question": "What is something you need to wrap gifts?",
       "answers": [
-        { "text": "Wrapping Paper", "points": 40 },
-        { "text": "Tape", "points": 30 },
-        { "text": "Scissors", "points": 15 },
-        { "text": "Ribbon/Bow", "points": 10 },
-        { "text": "Gift Tags", "points": 3 },
-        { "text": "Box", "points": 2 }
+        { "text": "Wrapping Paper", "points": 43 },
+        { "text": "Tape", "points": 28 },
+        { "text": "Scissors", "points": 13 },
+        { "text": "Ribbon/Bow", "points": 9 },
+        { "text": "Gift Tags", "points": 4 },
+        { "text": "Box", "points": 3 }
       ]
     },
     {
       "id": 16,
       "question": "What is the most popular Christmas song?",
       "answers": [
-        { "text": "All I Want for Christmas is You", "points": 30 },
-        { "text": "Jingle Bells", "points": 25 },
-        { "text": "White Christmas", "points": 15 },
-        { "text": "Rudolph the Red-Nosed Reindeer", "points": 10 },
+        { "text": "All I Want for Christmas is You", "points": 33 },
+        { "text": "Jingle Bells", "points": 22 },
+        { "text": "White Christmas", "points": 14 },
+        { "text": "Rudolph the Red-Nosed Reindeer", "points": 11 },
         { "text": "Frosty the Snowman", "points": 8 },
-        { "text": "Silent Night", "points": 5 },
-        { "text": "Last Christmas", "points": 5 },
+        { "text": "Silent Night", "points": 6 },
+        { "text": "Last Christmas", "points": 4 },
         { "text": "Rockin’ Around the Christmas Tree", "points": 2 }
       ]
     },
@@ -218,12 +218,12 @@ window.QUESTIONS_EN = [
       "id": 17,
       "question": "What do you decorate a Christmas tree with?",
       "answers": [
-        { "text": "Ornaments/Baubles", "points": 40 },
-        { "text": "Lights", "points": 30 },
-        { "text": "Tinsel", "points": 10 },
-        { "text": "Star/Topper", "points": 10 },
-        { "text": "Ribbon/Garland", "points": 5 },
-        { "text": "Candy Canes", "points": 3 },
+        { "text": "Ornaments/Baubles", "points": 42 },
+        { "text": "Lights", "points": 29 },
+        { "text": "Tinsel", "points": 9 },
+        { "text": "Star/Topper", "points": 8 },
+        { "text": "Ribbon/Garland", "points": 6 },
+        { "text": "Candy Canes", "points": 4 },
         { "text": "Popcorn String", "points": 2 }
       ]
     },
@@ -231,12 +231,12 @@ window.QUESTIONS_EN = [
       "id": 18,
       "question": "What is a famous city to travel to for Christmas?",
       "answers": [
-        { "text": "New York", "points": 45 },
-        { "text": "Paris", "points": 20 },
-        { "text": "London", "points": 15 },
-        { "text": "Rome", "points": 8 },
-        { "text": "Berlin", "points": 5 },
-        { "text": "Vienna", "points": 4 },
+        { "text": "New York", "points": 48 },
+        { "text": "Paris", "points": 19 },
+        { "text": "London", "points": 14 },
+        { "text": "Rome", "points": 7 },
+        { "text": "Berlin", "points": 6 },
+        { "text": "Vienna", "points": 3 },
         { "text": "Chicago", "points": 3 }
       ]
     },
@@ -244,11 +244,11 @@ window.QUESTIONS_EN = [
       "id": 19,
       "question": "What might you find in a stocking on Christmas morning?",
       "answers": [
-        { "text": "Candy/Chocolate", "points": 35 },
-        { "text": "Small Toys", "points": 20 },
-        { "text": "Socks", "points": 15 },
-        { "text": "Gift Card/Cash", "points": 12 },
-        { "text": "Orange/Fruit", "points": 10 },
+        { "text": "Candy/Chocolate", "points": 37 },
+        { "text": "Small Toys", "points": 19 },
+        { "text": "Socks", "points": 14 },
+        { "text": "Gift Card/Cash", "points": 13 },
+        { "text": "Orange/Fruit", "points": 9 },
         { "text": "Coal (if naughty)", "points": 5 },
         { "text": "Toiletries", "points": 3 }
       ]
@@ -257,11 +257,11 @@ window.QUESTIONS_EN = [
       "id": 20,
       "question": "What could Santa do to disguise himself?",
       "answers": [
-        { "text": "Shave his beard", "points": 40 },
-        { "text": "Change his clothes/suit", "points": 30 },
-        { "text": "Lose weight", "points": 15 },
-        { "text": "Dye his hair", "points": 8 },
-        { "text": "Wear sunglasses", "points": 5 },
+        { "text": "Shave his beard", "points": 43 },
+        { "text": "Change his clothes/suit", "points": 28 },
+        { "text": "Lose weight", "points": 14 },
+        { "text": "Dye his hair", "points": 7 },
+        { "text": "Wear sunglasses", "points": 6 },
         { "text": "Change his name", "points": 2 }
       ]
     },
@@ -269,11 +269,11 @@ window.QUESTIONS_EN = [
       "id": 21,
       "question": "What might make Mrs. Claus want to leave the North Pole?",
       "answers": [
-        { "text": "The Cold Weather", "points": 45 },
-        { "text": "Santa (too busy)", "points": 20 },
-        { "text": "Annoying Elves", "points": 15 },
-        { "text": "Reindeer Smell", "points": 10 },
-        { "text": "Isolation/Boredom", "points": 5 },
+        { "text": "The Cold Weather", "points": 47 },
+        { "text": "Santa (too busy)", "points": 19 },
+        { "text": "Annoying Elves", "points": 14 },
+        { "text": "Reindeer Smell", "points": 9 },
+        { "text": "Isolation/Boredom", "points": 6 },
         { "text": "No Sunlight", "points": 5 }
       ]
     },
@@ -281,11 +281,11 @@ window.QUESTIONS_EN = [
       "id": 22,
       "question": "What is another name for Santa Claus?",
       "answers": [
-        { "text": "St. Nicholas/St. Nick", "points": 40 },
-        { "text": "Father Christmas", "points": 25 },
-        { "text": "Kris Kringle", "points": 20 },
-        { "text": "Papa Noel", "points": 8 },
-        { "text": "The Big Guy", "points": 5 },
+        { "text": "St. Nicholas/St. Nick", "points": 44 },
+        { "text": "Father Christmas", "points": 23 },
+        { "text": "Kris Kringle", "points": 18 },
+        { "text": "Papa Noel", "points": 7 },
+        { "text": "The Big Guy", "points": 6 },
         { "text": "Santa", "points": 2 }
       ]
     },
@@ -293,12 +293,12 @@ window.QUESTIONS_EN = [
       "id": 23,
       "question": "What is a Christmas Eve tradition?",
       "answers": [
-        { "text": "Open one present", "points": 30 },
-        { "text": "Go to Church/Mass", "points": 25 },
-        { "text": "Leave cookies for Santa", "points": 15 },
-        { "text": "Watch a movie", "points": 12 },
-        { "text": "Read a story", "points": 8 },
-        { "text": "Family Dinner", "points": 5 },
+        { "text": "Open one present", "points": 31 },
+        { "text": "Go to Church/Mass", "points": 23 },
+        { "text": "Leave cookies for Santa", "points": 17 },
+        { "text": "Watch a movie", "points": 11 },
+        { "text": "Read a story", "points": 9 },
+        { "text": "Family Dinner", "points": 4 },
         { "text": "Look at lights", "points": 3 },
         { "text": "Wear matching pajamas", "points": 2 }
       ]
@@ -307,13 +307,13 @@ window.QUESTIONS_EN = [
       "id": 24,
       "question": "What is something on every Mom’s Christmas list?",
       "answers": [
-        { "text": "Sleep/Nap", "points": 30 },
-        { "text": "Spa Day/Massage", "points": 25 },
-        { "text": "Jewelry", "points": 15 },
-        { "text": "Gift Card", "points": 10 },
-        { "text": "Wine", "points": 8 },
-        { "text": "Babysitter/Help", "points": 5 },
-        { "text": "Nice Family Photo", "points": 5 },
+        { "text": "Sleep/Nap", "points": 34 },
+        { "text": "Spa Day/Massage", "points": 22 },
+        { "text": "Jewelry", "points": 14 },
+        { "text": "Gift Card", "points": 11 },
+        { "text": "Wine", "points": 7 },
+        { "text": "Babysitter/Help", "points": 6 },
+        { "text": "Nice Family Photo", "points": 4 },
         { "text": "Pajamas", "points": 2 }
       ]
     },
@@ -321,25 +321,25 @@ window.QUESTIONS_EN = [
       "id": 25,
       "question": "What is something you might start doing on December 1st?",
       "answers": [
-        { "text": "Open Advent Calendar", "points": 35 },
-        { "text": "Decorate the tree", "points": 25 },
-        { "text": "Listen to Christmas music", "points": 15 },
-        { "text": "Christmas Shopping", "points": 10 },
-        { "text": "Put up lights", "points": 8 },
-        { "text": "Bake Cookies", "points": 5 },
-        { "text": "Send Cards", "points": 2 }
+        { "text": "Open Advent Calendar", "points": 38 },
+        { "text": "Decorate the tree", "points": 22 },
+        { "text": "Listen to Christmas music", "points": 16 },
+        { "text": "Christmas Shopping", "points": 11 },
+        { "text": "Put up lights", "points": 6 },
+        { "text": "Bake Cookies", "points": 4 },
+        { "text": "Send Cards", "points": 3 }
       ]
     },
     {
       "id": 26,
       "question": "What is a job that requires someone to work on Christmas?",
       "answers": [
-        { "text": "Doctor/Nurse", "points": 40 },
-        { "text": "Police Officer", "points": 20 },
-        { "text": "Firefighter", "points": 15 },
-        { "text": "Santa Claus", "points": 10 },
-        { "text": "Priest/Pastor", "points": 8 },
-        { "text": "Pilot/Airport Staff", "points": 5 },
+        { "text": "Doctor/Nurse", "points": 43 },
+        { "text": "Police Officer", "points": 19 },
+        { "text": "Firefighter", "points": 14 },
+        { "text": "Santa Claus", "points": 11 },
+        { "text": "Priest/Pastor", "points": 7 },
+        { "text": "Pilot/Airport Staff", "points": 4 },
         { "text": "Hotel Staff", "points": 2 }
       ]
     },
@@ -347,12 +347,12 @@ window.QUESTIONS_EN = [
       "id": 27,
       "question": "Name a holiday other than Christmas where people get off work.",
       "answers": [
-        { "text": "Thanksgiving", "points": 35 },
-        { "text": "New Year's Day", "points": 25 },
-        { "text": "Labor Day", "points": 15 },
-        { "text": "Memorial Day", "points": 10 },
-        { "text": "Independence Day (July 4th)", "points": 8 },
-        { "text": "Easter", "points": 5 },
+        { "text": "Thanksgiving", "points": 36 },
+        { "text": "New Year's Day", "points": 24 },
+        { "text": "Labor Day", "points": 14 },
+        { "text": "Memorial Day", "points": 11 },
+        { "text": "Independence Day (July 4th)", "points": 7 },
+        { "text": "Easter", "points": 6 },
         { "text": "Veterans Day", "points": 2 }
       ]
     },
@@ -360,10 +360,10 @@ window.QUESTIONS_EN = [
       "id": 28,
       "question": "What are some ways to greet someone at Christmas?",
       "answers": [
-        { "text": "Merry Christmas", "points": 50 },
-        { "text": "Happy Holidays", "points": 30 },
-        { "text": "Season’s Greetings", "points": 10 },
-        { "text": "Feliz Navidad", "points": 5 },
+        { "text": "Merry Christmas", "points": 54 },
+        { "text": "Happy Holidays", "points": 28 },
+        { "text": "Season’s Greetings", "points": 9 },
+        { "text": "Feliz Navidad", "points": 4 },
         { "text": "Happy Christmas", "points": 3 },
         { "text": "Joy to the World", "points": 2 }
       ]
@@ -372,10 +372,10 @@ window.QUESTIONS_EN = [
       "id": 29,
       "question": "What are the most common colors during the holiday season?",
       "answers": [
-        { "text": "Red", "points": 40 },
-        { "text": "Green", "points": 35 },
-        { "text": "White", "points": 10 },
-        { "text": "Gold", "points": 8 },
+        { "text": "Red", "points": 41 },
+        { "text": "Green", "points": 34 },
+        { "text": "White", "points": 11 },
+        { "text": "Gold", "points": 7 },
         { "text": "Silver", "points": 5 },
         { "text": "Blue", "points": 2 }
       ]
@@ -384,35 +384,35 @@ window.QUESTIONS_EN = [
       "id": 30,
       "question": "Name a plant you see at Christmas.",
       "answers": [
-        { "text": "Christmas Tree (Pine/Fir)", "points": 45 },
-        { "text": "Poinsettia", "points": 25 },
-        { "text": "Mistletoe", "points": 15 },
-        { "text": "Holly", "points": 10 },
-        { "text": "Christmas Cactus", "points": 3 },
-        { "text": "Ivy", "points": 2 }
+        { "text": "Christmas Tree (Pine/Fir)", "points": 46 },
+        { "text": "Poinsettia", "points": 24 },
+        { "text": "Mistletoe", "points": 14 },
+        { "text": "Holly", "points": 9 },
+        { "text": "Christmas Cactus", "points": 4 },
+        { "text": "Ivy", "points": 3 }
       ]
     },
     {
       "id": 31,
       "question": "What are the most common scents found during the holidays?",
       "answers": [
-        { "text": "Pine/Christmas Tree", "points": 30 },
-        { "text": "Cinnamon", "points": 25 },
-        { "text": "Peppermint", "points": 20 },
-        { "text": "Gingerbread/Cookies", "points": 10 },
-        { "text": "Cranberry", "points": 8 },
-        { "text": "Wood Fire", "points": 5 },
-        { "text": "Vanilla", "points": 2 }
+        { "text": "Pine/Christmas Tree", "points": 32 },
+        { "text": "Cinnamon", "points": 26 },
+        { "text": "Peppermint", "points": 19 },
+        { "text": "Gingerbread/Cookies", "points": 9 },
+        { "text": "Cranberry", "points": 7 },
+        { "text": "Wood Fire", "points": 4 },
+        { "text": "Vanilla", "points": 3 }
       ]
     },
     {
       "id": 32,
       "question": "How many weeks before Christmas should you send out cards?",
       "answers": [
-        { "text": "Two Weeks", "points": 35 },
-        { "text": "Three Weeks", "points": 30 },
-        { "text": "Four Weeks/One Month", "points": 20 },
-        { "text": "One Week", "points": 10 },
+        { "text": "Two Weeks", "points": 37 },
+        { "text": "Three Weeks", "points": 28 },
+        { "text": "Four Weeks/One Month", "points": 19 },
+        { "text": "One Week", "points": 11 },
         { "text": "Five Weeks", "points": 5 }
       ]
     },
@@ -420,22 +420,22 @@ window.QUESTIONS_EN = [
       "id": 33,
       "question": "What present would you get Santa for Christmas?",
       "answers": [
-        { "text": "Cookies", "points": 35 },
-        { "text": "New Suit/Boots", "points": 25 },
-        { "text": "A Vacation", "points": 20 },
-        { "text": "A Diet Plan", "points": 10 },
-        { "text": "GPS", "points": 5 },
-        { "text": "Razor", "points": 5 }
+        { "text": "Cookies", "points": 34 },
+        { "text": "New Suit/Boots", "points": 26 },
+        { "text": "A Vacation", "points": 19 },
+        { "text": "A Diet Plan", "points": 11 },
+        { "text": "GPS", "points": 6 },
+        { "text": "Razor", "points": 4 }
       ]
     },
     {
       "id": 34,
       "question": "What would you leave out for Santa on Christmas Eve?",
       "answers": [
-        { "text": "Cookies", "points": 50 },
-        { "text": "Milk", "points": 30 },
-        { "text": "Carrots (for Reindeer)", "points": 10 },
-        { "text": "Whiskey/Beer", "points": 5 },
+        { "text": "Cookies", "points": 52 },
+        { "text": "Milk", "points": 28 },
+        { "text": "Carrots (for Reindeer)", "points": 9 },
+        { "text": "Whiskey/Beer", "points": 6 },
         { "text": "Mince Pies", "points": 3 },
         { "text": "Letter/Note", "points": 2 }
       ]
@@ -444,11 +444,11 @@ window.QUESTIONS_EN = [
       "id": 35,
       "question": "What is something you might do on Christmas Day?",
       "answers": [
-        { "text": "Open Gifts", "points": 45 },
-        { "text": "Eat/Feast", "points": 25 },
-        { "text": "See Family/Visit", "points": 15 },
-        { "text": "Sleep in/Nap", "points": 8 },
-        { "text": "Go to Church", "points": 5 },
+        { "text": "Open Gifts", "points": 48 },
+        { "text": "Eat/Feast", "points": 23 },
+        { "text": "See Family/Visit", "points": 14 },
+        { "text": "Sleep in/Nap", "points": 7 },
+        { "text": "Go to Church", "points": 6 },
         { "text": "Watch TV", "points": 2 }
       ]
     },
@@ -456,161 +456,161 @@ window.QUESTIONS_EN = [
       "id": 36,
       "question": "What is a place that is open on Christmas Day?",
       "answers": [
-        { "text": "Hospital", "points": 35 },
-        { "text": "Gas Station", "points": 20 },
-        { "text": "Movie Theater", "points": 15 },
-        { "text": "Chinese Restaurant/Fast Food", "points": 12 },
-        { "text": "Hotel", "points": 10 },
-        { "text": "Airport", "points": 5 },
-        { "text": "Church", "points": 3 }
+        { "text": "Hospital", "points": 37 },
+        { "text": "Gas Station", "points": 19 },
+        { "text": "Movie Theater", "points": 14 },
+        { "text": "Chinese Restaurant/Fast Food", "points": 13 },
+        { "text": "Hotel", "points": 9 },
+        { "text": "Airport", "points": 6 },
+        { "text": "Church", "points": 2 }
       ]
     },
     {
       "id": 37,
       "question": "What is something that should be at every Christmas party?",
       "answers": [
-        { "text": "Food/Cookies", "points": 30 },
-        { "text": "Music", "points": 20 },
-        { "text": "Christmas Tree", "points": 15 },
-        { "text": "Alcohol/Eggnog", "points": 15 },
-        { "text": "Gifts/Secret Santa", "points": 10 },
-        { "text": "Ugly Sweaters", "points": 5 },
-        { "text": "Mistletoe", "points": 5 }
+        { "text": "Food/Cookies", "points": 32 },
+        { "text": "Music", "points": 19 },
+        { "text": "Christmas Tree", "points": 16 },
+        { "text": "Alcohol/Eggnog", "points": 14 },
+        { "text": "Gifts/Secret Santa", "points": 9 },
+        { "text": "Ugly Sweaters", "points": 6 },
+        { "text": "Mistletoe", "points": 4 }
       ]
     },
     {
       "id": 38,
       "question": "Name one of Santa's Reindeer.",
       "answers": [
-        { "text": "Rudolph", "points": 40 },
-        { "text": "Dasher", "points": 15 },
-        { "text": "Dancer", "points": 10 },
-        { "text": "Prancer", "points": 10 },
+        { "text": "Rudolph", "points": 42 },
+        { "text": "Dasher", "points": 14 },
+        { "text": "Dancer", "points": 11 },
+        { "text": "Prancer", "points": 9 },
         { "text": "Blitzen", "points": 8 },
         { "text": "Vixen", "points": 7 },
         { "text": "Cupid", "points": 5 },
-        { "text": "Comet", "points": 5 }
+        { "text": "Comet", "points": 4 }
       ]
     },
     {
       "id": 39,
       "question": "Name a figure you find in a Nativity set.",
       "answers": [
-        { "text": "Baby Jesus", "points": 40 },
-        { "text": "Mary", "points": 20 },
-        { "text": "Joseph", "points": 15 },
-        { "text": "Wise Men", "points": 10 },
-        { "text": "Angel", "points": 8 },
+        { "text": "Baby Jesus", "points": 43 },
+        { "text": "Mary", "points": 19 },
+        { "text": "Joseph", "points": 14 },
+        { "text": "Wise Men", "points": 11 },
+        { "text": "Angel", "points": 7 },
         { "text": "Shepherd", "points": 4 },
-        { "text": "Sheep/Donkey", "points": 3 }
+        { "text": "Sheep/Donkey", "points": 2 }
       ]
     },
     {
       "id": 40,
       "question": "What are common Christmas tree toppers?",
       "answers": [
-        { "text": "Star", "points": 55 },
-        { "text": "Angel", "points": 35 },
-        { "text": "Bow/Ribbon", "points": 5 },
+        { "text": "Star", "points": 57 },
+        { "text": "Angel", "points": 33 },
+        { "text": "Bow/Ribbon", "points": 4 },
         { "text": "Santa", "points": 3 },
-        { "text": "Snowflake", "points": 2 }
+        { "text": "Snowflake", "points": 3 }
       ]
     },
     {
       "id": 41,
       "question": "What can you find at the North Pole?",
       "answers": [
-        { "text": "Snow/Ice", "points": 35 },
-        { "text": "Santa’s Workshop", "points": 25 },
-        { "text": "Elves", "points": 20 },
-        { "text": "Reindeer", "points": 10 },
-        { "text": "Santa Claus", "points": 5 },
-        { "text": "Igloo", "points": 5 }
+        { "text": "Snow/Ice", "points": 37 },
+        { "text": "Santa’s Workshop", "points": 24 },
+        { "text": "Elves", "points": 19 },
+        { "text": "Reindeer", "points": 11 },
+        { "text": "Santa Claus", "points": 6 },
+        { "text": "Igloo", "points": 3 }
       ]
     },
     {
       "id": 42,
       "question": "What is something you might hear Santa say?",
       "answers": [
-        { "text": "Ho Ho Ho", "points": 50 },
-        { "text": "Merry Christmas", "points": 30 },
-        { "text": "Have you been good?", "points": 10 },
-        { "text": "On Dasher, On Dancer!", "points": 5 },
-        { "text": "What do you want?", "points": 5 }
+        { "text": "Ho Ho Ho", "points": 54 },
+        { "text": "Merry Christmas", "points": 27 },
+        { "text": "Have you been good?", "points": 11 },
+        { "text": "On Dasher, On Dancer!", "points": 6 },
+        { "text": "What do you want?", "points": 2 }
       ]
     },
     {
       "id": 43,
       "question": "What do Santa, the Tooth Fairy, and the Easter Bunny have in common?",
       "answers": [
-        { "text": "Bring Gifts/Money", "points": 35 },
-        { "text": "Come at Night", "points": 25 },
-        { "text": "Kids Love Them", "points": 15 },
-        { "text": "Magical/Make-Believe", "points": 15 },
-        { "text": "Sneaky", "points": 10 }
+        { "text": "Bring Gifts/Money", "points": 38 },
+        { "text": "Come at Night", "points": 24 },
+        { "text": "Kids Love Them", "points": 14 },
+        { "text": "Magical/Make-Believe", "points": 13 },
+        { "text": "Sneaky", "points": 11 }
       ]
     },
     {
       "id": 44,
       "question": "What is something you do NOT want to open on Christmas morning?",
       "answers": [
-        { "text": "Underwear", "points": 30 },
-        { "text": "Socks", "points": 25 },
-        { "text": "Coal", "points": 20 },
-        { "text": "Cleaning Supplies", "points": 10 },
-        { "text": "Deodorant/Soap", "points": 8 },
-        { "text": "Homework", "points": 5 },
-        { "text": "Fruitcake", "points": 2 }
+        { "text": "Underwear", "points": 32 },
+        { "text": "Socks", "points": 24 },
+        { "text": "Coal", "points": 19 },
+        { "text": "Cleaning Supplies", "points": 11 },
+        { "text": "Deodorant/Soap", "points": 7 },
+        { "text": "Homework", "points": 4 },
+        { "text": "Fruitcake", "points": 3 }
       ]
     },
     {
       "id": 45,
       "question": "Name a food traditionally served for Christmas dinner.",
       "answers": [
-        { "text": "Turkey", "points": 35 },
-        { "text": "Ham", "points": 30 },
-        { "text": "Mashed Potatoes", "points": 15 },
-        { "text": "Stuffing", "points": 10 },
-        { "text": "Roast Beef", "points": 5 },
+        { "text": "Turkey", "points": 38 },
+        { "text": "Ham", "points": 27 },
+        { "text": "Mashed Potatoes", "points": 14 },
+        { "text": "Stuffing", "points": 11 },
+        { "text": "Roast Beef", "points": 6 },
         { "text": "Pie", "points": 3 },
-        { "text": "Cranberry Sauce", "points": 2 }
+        { "text": "Cranberry Sauce", "points": 1 }
       ]
     },
     {
       "id": 46,
       "question": "What is a drink served at Christmas?",
       "answers": [
-        { "text": "Eggnog", "points": 40 },
-        { "text": "Hot Chocolate", "points": 25 },
-        { "text": "Wine/Mulled Wine", "points": 15 },
-        { "text": "Apple Cider", "points": 10 },
+        { "text": "Eggnog", "points": 43 },
+        { "text": "Hot Chocolate", "points": 24 },
+        { "text": "Wine/Mulled Wine", "points": 16 },
+        { "text": "Apple Cider", "points": 9 },
         { "text": "Punch", "points": 5 },
-        { "text": "Champagne", "points": 5 }
+        { "text": "Champagne", "points": 3 }
       ]
     },
     {
       "id": 47,
       "question": "Name something used to build a snowman.",
       "answers": [
-        { "text": "Carrot (Nose)", "points": 40 },
-        { "text": "Coal (Eyes/Buttons)", "points": 25 },
-        { "text": "Scarf", "points": 15 },
-        { "text": "Hat/Top Hat", "points": 10 },
-        { "text": "Sticks/Branches (Arms)", "points": 5 },
-        { "text": "Pipe", "points": 3 },
-        { "text": "Rocks/Stones", "points": 2 }
+        { "text": "Carrot (Nose)", "points": 43 },
+        { "text": "Coal (Eyes/Buttons)", "points": 23 },
+        { "text": "Scarf", "points": 16 },
+        { "text": "Hat/Top Hat", "points": 9 },
+        { "text": "Sticks/Branches (Arms)", "points": 6 },
+        { "text": "Pipe", "points": 2 },
+        { "text": "Rocks/Stones", "points": 1 }
       ]
     },
     {
       "id": 48,
       "question": "What is the most popular New Year's resolution?",
       "answers": [
-        { "text": "Lose Weight / Exercise", "points": 45 },
-        { "text": "Quit Smoking", "points": 20 },
-        { "text": "Save Money", "points": 15 },
-        { "text": "Eat Healthier", "points": 10 },
-        { "text": "Learn a New Hobby", "points": 5 },
-        { "text": "Travel More", "points": 3 },
+        { "text": "Lose Weight / Exercise", "points": 48 },
+        { "text": "Quit Smoking", "points": 19 },
+        { "text": "Save Money", "points": 14 },
+        { "text": "Eat Healthier", "points": 11 },
+        { "text": "Learn a New Hobby", "points": 4 },
+        { "text": "Travel More", "points": 2 },
         { "text": "Drink Less Alcohol", "points": 2 }
       ]
     },
@@ -618,154 +618,154 @@ window.QUESTIONS_EN = [
       "id": 49,
       "question": "Name a popular game played at Christmas parties.",
       "answers": [
-        { "text": "Charades", "points": 45 },
-        { "text": "Board Games (Monopoly etc.)", "points": 20 },
-        { "text": "Pictionary", "points": 15 },
-        { "text": "Card Games", "points": 10 },
-        { "text": "White Elephant / Gift Exchange", "points": 5 },
-        { "text": "Musical Chairs", "points": 5 }
+        { "text": "Charades", "points": 47 },
+        { "text": "Board Games (Monopoly etc.)", "points": 19 },
+        { "text": "Pictionary", "points": 16 },
+        { "text": "Card Games", "points": 9 },
+        { "text": "White Elephant / Gift Exchange", "points": 6 },
+        { "text": "Musical Chairs", "points": 3 }
       ]
     },
     {
       "id": 50,
       "question": "Name something you wear outside in the winter.",
       "answers": [
-        { "text": "Coat / Jacket", "points": 35 },
-        { "text": "Gloves / Mittens", "points": 25 },
-        { "text": "Scarf", "points": 15 },
-        { "text": "Hat / Beanie", "points": 12 },
-        { "text": "Boots", "points": 8 },
+        { "text": "Coat / Jacket", "points": 38 },
+        { "text": "Gloves / Mittens", "points": 24 },
+        { "text": "Scarf", "points": 16 },
+        { "text": "Hat / Beanie", "points": 11 },
+        { "text": "Boots", "points": 7 },
         { "text": "Snow Pants", "points": 3 },
-        { "text": "Earmuffs", "points": 2 }
+        { "text": "Earmuffs", "points": 1 }
       ]
     },
     {
       "id": 51,
       "question": "Name a classic 'Secret Santa' gift.",
       "answers": [
-        { "text": "Mug / Cup", "points": 35 },
-        { "text": "Candle", "points": 20 },
-        { "text": "Gift Card", "points": 15 },
-        { "text": "Socks", "points": 10 },
-        { "text": "Chocolate", "points": 10 },
-        { "text": "Wine / Alcohol", "points": 5 },
-        { "text": "Soap / Lotion", "points": 5 }
+        { "text": "Mug / Cup", "points": 38 },
+        { "text": "Candle", "points": 19 },
+        { "text": "Gift Card", "points": 14 },
+        { "text": "Socks", "points": 11 },
+        { "text": "Chocolate", "points": 9 },
+        { "text": "Wine / Alcohol", "points": 6 },
+        { "text": "Soap / Lotion", "points": 3 }
       ]
     },
     {
       "id": 52,
       "question": "What does Santa have to do to fit down the chimney?",
       "answers": [
-        { "text": "Suck in his gut", "points": 40 },
-        { "text": "Use Magic (Touch nose)", "points": 25 },
-        { "text": "Hold his breath", "points": 15 },
-        { "text": "Lose weight", "points": 10 },
-        { "text": "Use Oil/Grease", "points": 5 },
-        { "text": "Shrink", "points": 5 }
+        { "text": "Suck in his gut", "points": 42 },
+        { "text": "Use Magic (Touch nose)", "points": 23 },
+        { "text": "Hold his breath", "points": 16 },
+        { "text": "Lose weight", "points": 9 },
+        { "text": "Use Oil/Grease", "points": 6 },
+        { "text": "Shrink", "points": 4 }
       ]
     },
     {
       "id": 53,
       "question": "Name the most common trash seen on Christmas morning.",
       "answers": [
-        { "text": "Wrapping Paper", "points": 50 },
-        { "text": "Ribbons / Bows", "points": 20 },
-        { "text": "Boxes / Cardboard", "points": 15 },
-        { "text": "Pine Needles", "points": 8 },
-        { "text": "Toy Packaging", "points": 5 },
-        { "text": "Food Crumbs", "points": 2 }
+        { "text": "Wrapping Paper", "points": 53 },
+        { "text": "Ribbons / Bows", "points": 19 },
+        { "text": "Boxes / Cardboard", "points": 14 },
+        { "text": "Pine Needles", "points": 7 },
+        { "text": "Toy Packaging", "points": 4 },
+        { "text": "Food Crumbs", "points": 3 }
       ]
     },
     {
       "id": 54,
       "question": "Name a food or drink you buy at a Christmas market.",
       "answers": [
-        { "text": "Hot Chocolate", "points": 40 },
-        { "text": "Mulled Wine", "points": 25 },
-        { "text": "Gingerbread", "points": 15 },
-        { "text": "Roasted Chestnuts", "points": 10 },
-        { "text": "Hot Dog / Sausage", "points": 5 },
-        { "text": "Eggnog", "points": 5 }
+        { "text": "Hot Chocolate", "points": 43 },
+        { "text": "Mulled Wine", "points": 24 },
+        { "text": "Gingerbread", "points": 14 },
+        { "text": "Roasted Chestnuts", "points": 9 },
+        { "text": "Hot Dog / Sausage", "points": 6 },
+        { "text": "Eggnog", "points": 4 }
       ]
     },
     {
       "id": 55,
       "question": "Name something used to decorate a gingerbread house.",
       "answers": [
-        { "text": "Candy / Gumdrops", "points": 35 },
-        { "text": "Icing / Frosting", "points": 30 },
-        { "text": "Candy Canes", "points": 15 },
-        { "text": "Chocolate", "points": 10 },
-        { "text": "Peppermints", "points": 8 },
-        { "text": "Powdered Sugar", "points": 2 }
+        { "text": "Candy / Gumdrops", "points": 37 },
+        { "text": "Icing / Frosting", "points": 28 },
+        { "text": "Candy Canes", "points": 16 },
+        { "text": "Chocolate", "points": 9 },
+        { "text": "Peppermints", "points": 7 },
+        { "text": "Powdered Sugar", "points": 3 }
       ]
     },
     {
       "id": 56,
       "question": "What do people do at exactly midnight on New Year's Eve?",
       "answers": [
-        { "text": "Kiss Someone", "points": 45 },
-        { "text": "Toast / Drink Champagne", "points": 25 },
-        { "text": "Scream / Cheer", "points": 10 },
-        { "text": "Countdown", "points": 10 },
-        { "text": "Sing 'Auld Lang Syne'", "points": 5 },
-        { "text": "Throw Confetti", "points": 5 }
+        { "text": "Kiss Someone", "points": 47 },
+        { "text": "Toast / Drink Champagne", "points": 23 },
+        { "text": "Scream / Cheer", "points": 11 },
+        { "text": "Countdown", "points": 9 },
+        { "text": "Sing 'Auld Lang Syne'", "points": 6 },
+        { "text": "Throw Confetti", "points": 4 }
       ]
     },
     {
       "id": 57,
       "question": "Name something on the Christmas tree that isn't a gift.",
       "answers": [
-        { "text": "Ornaments / Baubles", "points": 45 },
-        { "text": "Lights", "points": 25 },
-        { "text": "Star / Angel Topper", "points": 15 },
-        { "text": "Tinsel / Garland", "points": 10 },
-        { "text": "Candy Cane", "points": 5 }
+        { "text": "Ornaments / Baubles", "points": 48 },
+        { "text": "Lights", "points": 23 },
+        { "text": "Star / Angel Topper", "points": 14 },
+        { "text": "Tinsel / Garland", "points": 9 },
+        { "text": "Candy Cane", "points": 6 }
       ]
     },
     {
       "id": 58,
       "question": "Name a job performed by Santa's elves.",
       "answers": [
-        { "text": "Making Toys", "points": 55 },
-        { "text": "Wrapping Gifts", "points": 20 },
-        { "text": "Taking care of Reindeer", "points": 10 },
-        { "text": "Loading the Sleigh", "points": 8 },
-        { "text": "Sorting Mail", "points": 5 },
-        { "text": "Checking Naughty List", "points": 2 }
+        { "text": "Making Toys", "points": 58 },
+        { "text": "Wrapping Gifts", "points": 19 },
+        { "text": "Taking care of Reindeer", "points": 9 },
+        { "text": "Loading the Sleigh", "points": 7 },
+        { "text": "Sorting Mail", "points": 4 },
+        { "text": "Checking Naughty List", "points": 3 }
       ]
     },
     {
       "id": 59,
       "question": "If a house has no chimney, how does Santa get in?",
       "answers": [
-        { "text": "Front Door", "points": 35 },
-        { "text": "Magic Key", "points": 30 },
-        { "text": "Window", "points": 20 },
-        { "text": "Makes a Chimney (Magic)", "points": 10 },
-        { "text": "Garage", "points": 5 }
+        { "text": "Front Door", "points": 38 },
+        { "text": "Magic Key", "points": 27 },
+        { "text": "Window", "points": 19 },
+        { "text": "Makes a Chimney (Magic)", "points": 9 },
+        { "text": "Garage", "points": 7 }
       ]
     },
     {
       "id": 60,
       "question": "Name something popular to watch on TV during the holidays.",
       "answers": [
-        { "text": "Times Square Ball Drop", "points": 35 },
-        { "text": "Christmas Movies", "points": 25 },
-        { "text": "Football Games", "points": 15 },
-        { "text": "Parades", "points": 15 },
-        { "text": "The Queen/King's Speech", "points": 5 },
-        { "text": "Concerts", "points": 5 }
+        { "text": "Times Square Ball Drop", "points": 37 },
+        { "text": "Christmas Movies", "points": 24 },
+        { "text": "Football Games", "points": 16 },
+        { "text": "Parades", "points": 14 },
+        { "text": "The Queen/King's Speech", "points": 6 },
+        { "text": "Concerts", "points": 3 }
       ]
     },
     {
       "id": 61,
       "question": "How do you react when you get a gift you don't like?",
       "answers": [
-        { "text": "Smile and say Thanks", "points": 50 },
-        { "text": "Say 'It's what I needed'", "points": 20 },
-        { "text": "Pretend to be surprised", "points": 15 },
-        { "text": "Plan to return/exchange", "points": 10 },
+        { "text": "Smile and say Thanks", "points": 53 },
+        { "text": "Say 'It's what I needed'", "points": 19 },
+        { "text": "Pretend to be surprised", "points": 14 },
+        { "text": "Plan to return/exchange", "points": 9 },
         { "text": "Ask for the receipt", "points": 5 }
       ]
     },
@@ -773,10 +773,10 @@ window.QUESTIONS_EN = [
       "id": 62,
       "question": "Name something kids love to do when it snows.",
       "answers": [
-        { "text": "Build a Snowman", "points": 35 },
-        { "text": "Snowball Fight", "points": 30 },
-        { "text": "Sledding", "points": 20 },
-        { "text": "Make Snow Angels", "points": 10 },
+        { "text": "Build a Snowman", "points": 38 },
+        { "text": "Snowball Fight", "points": 27 },
+        { "text": "Sledding", "points": 19 },
+        { "text": "Make Snow Angels", "points": 11 },
         { "text": "Build a Fort/Igloo", "points": 5 }
       ]
     },
@@ -784,23 +784,23 @@ window.QUESTIONS_EN = [
       "id": 63,
       "question": "If Santa's sleigh breaks down, what might he use to deliver gifts?",
       "answers": [
-        { "text": "Truck / Van", "points": 30 },
-        { "text": "Helicopter", "points": 25 },
-        { "text": "Airplane", "points": 20 },
-        { "text": "Car / Taxi / Uber", "points": 15 },
-        { "text": "Motorcycle", "points": 5 },
-        { "text": "Parachute", "points": 5 }
+        { "text": "Truck / Van", "points": 33 },
+        { "text": "Helicopter", "points": 24 },
+        { "text": "Airplane", "points": 18 },
+        { "text": "Car / Taxi / Uber", "points": 16 },
+        { "text": "Motorcycle", "points": 6 },
+        { "text": "Parachute", "points": 3 }
       ]
     },
     {
       "id": 64,
       "question": "Name a snack often found in bowls during the holidays.",
       "answers": [
-        { "text": "Popcorn", "points": 25 },
-        { "text": "Nuts (Peanuts/Walnuts)", "points": 20 },
-        { "text": "Candy / Candy Canes", "points": 20 },
-        { "text": "Cookies", "points": 15 },
-        { "text": "Chocolate", "points": 15 },
+        { "text": "Popcorn", "points": 27 },
+        { "text": "Nuts (Peanuts/Walnuts)", "points": 21 },
+        { "text": "Candy / Candy Canes", "points": 19 },
+        { "text": "Cookies", "points": 16 },
+        { "text": "Chocolate", "points": 12 },
         { "text": "Chips / Pretzels", "points": 5 }
       ]
     },
@@ -808,21 +808,21 @@ window.QUESTIONS_EN = [
       "id": 65,
       "question": "Name a feeling people have after the holidays are over.",
       "answers": [
-        { "text": "Tired / Exhausted", "points": 35 },
-        { "text": "Sad / Depressed", "points": 25 },
-        { "text": "Bloated / Fat", "points": 20 },
-        { "text": "Broke / No Money", "points": 15 },
-        { "text": "Relieved", "points": 5 }
+        { "text": "Tired / Exhausted", "points": 37 },
+        { "text": "Sad / Depressed", "points": 24 },
+        { "text": "Bloated / Fat", "points": 19 },
+        { "text": "Broke / No Money", "points": 14 },
+        { "text": "Relieved", "points": 6 }
       ]
     },
     {
       "id": 66,
       "question": "What needs to happen for school to be cancelled (Snow Day)?",
       "answers": [
-        { "text": "Heavy Snowfall", "points": 50 },
-        { "text": "Icy Roads", "points": 20 },
-        { "text": "Blizzard / Storm", "points": 15 },
-        { "text": "Extreme Cold", "points": 10 },
+        { "text": "Heavy Snowfall", "points": 53 },
+        { "text": "Icy Roads", "points": 19 },
+        { "text": "Blizzard / Storm", "points": 14 },
+        { "text": "Extreme Cold", "points": 9 },
         { "text": "Power Outage", "points": 5 }
       ]
     },
@@ -830,10 +830,10 @@ window.QUESTIONS_EN = [
       "id": 67,
       "question": "Name a sport that requires snow.",
       "answers": [
-        { "text": "Skiing", "points": 45 },
-        { "text": "Snowboarding", "points": 30 },
-        { "text": "Sledding", "points": 10 },
-        { "text": "Ice Hockey", "points": 8 },
+        { "text": "Skiing", "points": 48 },
+        { "text": "Snowboarding", "points": 27 },
+        { "text": "Sledding", "points": 11 },
+        { "text": "Ice Hockey", "points": 7 },
         { "text": "Ice Skating", "points": 5 },
         { "text": "Snowshoeing", "points": 2 }
       ]
@@ -842,23 +842,23 @@ window.QUESTIONS_EN = [
       "id": 68,
       "question": "Name a pie that is often served during the holidays.",
       "answers": [
-        { "text": "Pumpkin Pie", "points": 40 },
-        { "text": "Apple Pie", "points": 25 },
-        { "text": "Pecan Pie", "points": 15 },
-        { "text": "Mince Pie", "points": 10 },
-        { "text": "Cherry Pie", "points": 5 },
-        { "text": "Sweet Potato Pie", "points": 5 }
+        { "text": "Pumpkin Pie", "points": 43 },
+        { "text": "Apple Pie", "points": 24 },
+        { "text": "Pecan Pie", "points": 14 },
+        { "text": "Mince Pie", "points": 9 },
+        { "text": "Cherry Pie", "points": 6 },
+        { "text": "Sweet Potato Pie", "points": 4 }
       ]
     },
     {
       "id": 69,
       "question": "Name something at the top of a woman’s Christmas list.",
       "answers": [
-        { "text": "Jewelry", "points": 40 },
-        { "text": "Gift Card / Money", "points": 20 },
-        { "text": "Perfume", "points": 15 },
-        { "text": "Clothes / Bag", "points": 10 },
-        { "text": "Vacation", "points": 8 },
+        { "text": "Jewelry", "points": 44 },
+        { "text": "Gift Card / Money", "points": 19 },
+        { "text": "Perfume", "points": 14 },
+        { "text": "Clothes / Bag", "points": 9 },
+        { "text": "Vacation", "points": 7 },
         { "text": "Spa Day", "points": 7 }
       ]
     },
@@ -866,74 +866,74 @@ window.QUESTIONS_EN = [
       "id": 70,
       "question": "What kind of animal or bird is associated with Christmas?",
       "answers": [
-        { "text": "Reindeer", "points": 50 },
-        { "text": "Polar Bear", "points": 15 },
-        { "text": "Penguin", "points": 10 },
-        { "text": "Turkey", "points": 10 },
-        { "text": "Robin", "points": 5 },
-        { "text": "Dove", "points": 5 },
-        { "text": "Donkey", "points": 5 }
+        { "text": "Reindeer", "points": 54 },
+        { "text": "Polar Bear", "points": 14 },
+        { "text": "Penguin", "points": 9 },
+        { "text": "Turkey", "points": 9 },
+        { "text": "Robin", "points": 6 },
+        { "text": "Dove", "points": 4 },
+        { "text": "Donkey", "points": 4 }
       ]
     },
     {
       "id": 71,
       "question": "Name a traditional Christmas breakfast food.",
       "answers": [
-        { "text": "Pancakes", "points": 35 },
-        { "text": "Cinnamon Rolls", "points": 25 },
-        { "text": "Eggs and Bacon", "points": 20 },
-        { "text": "French Toast", "points": 10 },
-        { "text": "Breakfast Casserole", "points": 5 },
-        { "text": "Waffles", "points": 5 }
+        { "text": "Pancakes", "points": 38 },
+        { "text": "Cinnamon Rolls", "points": 24 },
+        { "text": "Eggs and Bacon", "points": 19 },
+        { "text": "French Toast", "points": 9 },
+        { "text": "Breakfast Casserole", "points": 6 },
+        { "text": "Waffles", "points": 4 }
       ]
     },
     {
       "id": 72,
       "question": "Name something you love about Christmas.",
       "answers": [
-        { "text": "Spending time with Family", "points": 40 },
-        { "text": "Presents / Gifts", "points": 20 },
-        { "text": "Food", "points": 15 },
-        { "text": "Lights / Decorations", "points": 10 },
-        { "text": "Time off work", "points": 10 },
-        { "text": "Christmas Music", "points": 5 }
+        { "text": "Spending time with Family", "points": 43 },
+        { "text": "Presents / Gifts", "points": 19 },
+        { "text": "Food", "points": 14 },
+        { "text": "Lights / Decorations", "points": 9 },
+        { "text": "Time off work", "points": 9 },
+        { "text": "Christmas Music", "points": 6 }
       ]
     },
     {
       "id": 73,
       "question": "Name something people pose in front of for their Christmas photos.",
       "answers": [
-        { "text": "Christmas Tree", "points": 55 },
-        { "text": "Fireplace", "points": 20 },
-        { "text": "Santa Claus", "points": 10 },
-        { "text": "House / Lights", "points": 8 },
-        { "text": "Snow / Outdoors", "points": 5 },
-        { "text": "Wreath", "points": 2 }
+        { "text": "Christmas Tree", "points": 58 },
+        { "text": "Fireplace", "points": 19 },
+        { "text": "Santa Claus", "points": 9 },
+        { "text": "House / Lights", "points": 7 },
+        { "text": "Snow / Outdoors", "points": 4 },
+        { "text": "Wreath", "points": 3 }
       ]
     },
     {
       "id": 74,
       "question": "Name a store that gets busy during Christmas.",
       "answers": [
-        { "text": "Walmart", "points": 35 },
-        { "text": "Target", "points": 25 },
-        { "text": "Macy's", "points": 15 },
-        { "text": "Best Buy", "points": 10 },
-        { "text": "Costco", "points": 8 },
-        { "text": "Apple Store", "points": 5 },
-        { "text": "Toys 'R' Us", "points": 2 }
+        { "text": "Walmart", "points": 37 },
+        { "text": "Target", "points": 24 },
+        { "text": "Macy's", "points": 14 },
+        { "text": "Best Buy", "points": 9 },
+        { "text": "Costco", "points": 7 },
+        { "text": "Apple Store", "points": 6 },
+        { "text": "Toys 'R' Us", "points": 3 }
       ]
     },
     {
       "id": 75,
       "question": "Name something people complain about during Christmas.",
       "answers": [
-        { "text": "Spending Money / Cost", "points": 35 },
-        { "text": "Crowds / Traffic", "points": 25 },
-        { "text": "Gaining Weight", "points": 15 },
-        { "text": "Stress / Shopping", "points": 10 },
-        { "text": "Cold Weather", "points": 10 },
-        { "text": "Cleaning Up", "points": 5 }
+        { "text": "Spending Money / Cost", "points": 38 },
+        { "text": "Crowds / Traffic", "points": 24 },
+        { "text": "Gaining Weight", "points": 14 },
+        { "text": "Stress / Shopping", "points": 9 },
+        { "text": "Cold Weather", "points": 9 },
+        { "text": "Cleaning Up", "points": 6 }
       ]
     }
-];
+  ];

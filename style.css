@@ -29,7 +29,7 @@ body {
 }
 
 .intro-overlay {
-    position: fixed;
+    position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.65);
     display: flex;
@@ -555,7 +555,7 @@ body {
 /* Modal Styles */
 .modal {
     display: none;
-    position: fixed;
+    position: absolute;
     z-index: 1500;
     left: 0;
     top: 0;
@@ -564,6 +564,8 @@ body {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.6);
     animation: fadeIn 0.4s;
+    border-radius: 20px;
+    /* Match container radius */
 }
 
 @keyframes fadeIn {
