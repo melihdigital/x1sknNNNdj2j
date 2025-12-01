@@ -21,11 +21,14 @@ body {
     background-image: radial-gradient(circle, var(--card-white) 1px, transparent 1px);
     background-size: 28px 28px;
     color: var(--text-dark);
-    min-height: 100vh;
+    min-height: 100dvh;
+    /* Dynamic viewport height */
     width: 100vw;
     position: relative;
     overflow: hidden;
     /* Prevent scrollbars when scaling */
+    /* Safe area insets for notches/home bars */
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .intro-overlay {

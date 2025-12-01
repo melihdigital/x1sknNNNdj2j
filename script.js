@@ -755,6 +755,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         startGameBtn.addEventListener('click', () => {
+            // Attempt to enter fullscreen
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                });
+            }
             toggleModal(hostInstructionModal, true);
         });
 
@@ -823,18 +829,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentWidth = container.offsetWidth; // Should be ~1200px
         const contentHeight = container.offsetHeight;
 
-        // Calculate scale to fit
+        // Safety margin to prevent content touching edges (0.95 = 5% gap)
+        const safetyMargin = 0.95;
+
+        // Calculate scale to fit with margin
         const scale = Math.min(
-            availableWidth / contentWidth,
-            availableHeight / contentHeight
+            (availableWidth / contentWidth) * safetyMargin,
+            (availableHeight / contentHeight) * safetyMargin
         );
 
-        // Apply scale if the screen is smaller than the container
-        // OR if we want to ensure it always fits perfectly even on slightly larger screens
-        if (scale < 1) {
-            container.style.transform = `translate(-50%, -50%) scale(${scale})`;
-        } else {
-            container.style.transform = `translate(-50%, -50%) scale(1)`;
-        }
+        // Always apply scale to ensure it fits with margin
+        container.style.transform = `translate(-50%, -50%) scale(${scale})`;
     }
 });
