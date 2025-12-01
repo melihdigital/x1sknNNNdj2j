@@ -13,10 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Round",
                 start: "Start Game",
-                howTo: "How to play?",
+                start: "Start Game",
                 language: "Language",
-                helpButtonFull: "How to play?",
-                helpButtonShort: "?",
                 showAnswers: "Show Answers",
                 hideAnswers: "Hide Answers",
                 roundPoints: "Round Points",
@@ -26,14 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Elf Team",
                 hiddenAnswer: "Answer Hidden",
                 emptySlot: "Empty slot",
-                helpTitle: "How to play?",
-                helpSteps: [
-                    'The host uses "Show Answers" to peek; players should close their eyes.',
-                    "Teams guess in turn. Clicking a correct card reveals it and adds its points to Round Points.",
-                    "On a wrong guess, click an X on that team's card; it turns red.",
-                    "Three wrongs pass control to the other team.",
-                    "When all answers are revealed or a team has 3 wrongs, the host awards the round points and moves to the next round."
-                ],
+                emptySlot: "Empty slot",
                 showAnswersModalTitle: "Prepare to reveal answers",
                 showAnswersModalBody: "All answers will be shown. Non-admin players should close their eyes. The host can take a photo to remember the answers.",
                 showAnswersModalConfirm: "Reveal",
@@ -49,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Close",
                 hostModalTitle: "Host Instructions",
                 hostModalBody: "Please appoint a game host and form two teams. The host will view the answers, reveal correct guesses on the board, and mark strikes for incorrect answers.",
-                continue: "Continue"
+                continue: "Continue",
+                notice: "Notice"
             }
         },
         de: {
@@ -59,10 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Runde",
                 start: "Spiel starten",
-                howTo: "So spielt man",
+                start: "Spiel starten",
                 language: "Sprache",
-                helpButtonFull: "So spielt man",
-                helpButtonShort: "?",
                 showAnswers: "Antworten zeigen",
                 hideAnswers: "Antworten verbergen",
                 roundPoints: "Rundenpunkte",
@@ -72,14 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Team Elf",
                 hiddenAnswer: "Antwort verdeckt",
                 emptySlot: "Leer",
-                helpTitle: "So spielt man",
-                helpSteps: [
-                    'Der Host nutzt "Antworten zeigen"; Spieler schließen die Augen.',
-                    "Teams raten abwechselnd. Ein richtiger Klick deckt die Karte auf und addiert Punkte.",
-                    "Bei einem Fehler ein X des Teams anklicken; es wird rot.",
-                    "Nach drei Fehlern wechselt der Zug.",
-                    "Sind alle Antworten offen oder ein Team hat 3 Fehler, vergibt der Host die Punkte und startet die nächste Runde."
-                ],
+                emptySlot: "Leer",
                 showAnswersModalTitle: "Antworten werden angezeigt",
                 showAnswersModalBody: "Alle Antworten werden geöffnet. Spieler Augen schließen. Host kann ein Foto machen.",
                 showAnswersModalConfirm: "Anzeigen",
@@ -95,7 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Schließen",
                 hostModalTitle: "Anweisungen für den Spielleiter",
                 hostModalBody: "Bitte bestimmen Sie einen Spielleiter und bilden Sie zwei Teams. Der Spielleiter sieht die Antworten, deckt richtige Antworten auf und markiert falsche Antworten mit einem X.",
-                continue: "Weiter"
+                continue: "Weiter",
+                notice: "Hinweis"
             }
         },
         fr: {
@@ -105,10 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Manche",
                 start: "Lancer la partie",
-                howTo: "Comment jouer ?",
+                start: "Lancer la partie",
                 language: "Langue",
-                helpButtonFull: "Comment jouer ?",
-                helpButtonShort: "?",
                 showAnswers: "Montrer les réponses",
                 hideAnswers: "Masquer les réponses",
                 roundPoints: "Points de la manche",
@@ -118,14 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Équipe Lutin",
                 hiddenAnswer: "Réponse cachée",
                 emptySlot: "Emplacement vide",
-                helpTitle: "Comment jouer ?",
-                helpSteps: [
-                    'L’animateur ouvre "Montrer les réponses"; les joueurs ferment les yeux.',
-                    "Les équipes devinent à tour de rôle. Cliquer sur la bonne carte la révèle et ajoute ses points.",
-                    "En cas d'erreur, cliquer sur un X de l'équipe; il devient rouge.",
-                    "Après trois erreurs, la main passe à l'autre équipe.",
-                    "Quand tout est révélé ou après 3 erreurs, l’animateur attribue les points et lance la manche suivante."
-                ],
+                emptySlot: "Emplacement vide",
                 showAnswersModalTitle: "Préparez-vous à révéler",
                 showAnswersModalBody: "Toutes les réponses seront montrées. Les joueurs ferment les yeux. L’animateur peut prendre une photo.",
                 showAnswersModalConfirm: "Révéler",
@@ -141,7 +116,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Fermer",
                 hostModalTitle: "Instructions pour l'animateur",
                 hostModalBody: "Veuillez désigner un animateur et former deux équipes. L'animateur verra les réponses, révélera les bonnes réponses au tableau et marquera les erreurs.",
-                continue: "Continuer"
+                continue: "Continuer",
+                notice: "Remarque"
             }
         },
         es: {
@@ -151,10 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Ronda",
                 start: "Comenzar juego",
-                howTo: "¿Cómo se juega?",
+                start: "Comenzar juego",
                 language: "Idioma",
-                helpButtonFull: "¿Cómo se juega?",
-                helpButtonShort: "?",
                 showAnswers: "Mostrar respuestas",
                 hideAnswers: "Ocultar respuestas",
                 roundPoints: "Puntos de la ronda",
@@ -164,14 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Equipo Elfo",
                 hiddenAnswer: "Respuesta oculta",
                 emptySlot: "Espacio vacío",
-                helpTitle: "¿Cómo se juega?",
-                helpSteps: [
-                    'El anfitrión usa "Mostrar respuestas"; los jugadores cierran los ojos.',
-                    "Los equipos adivinan por turnos. Al acertar se revela la carta y suma puntos.",
-                    "Si fallan, haz clic en una X del equipo y se pondrá roja.",
-                    "Con tres fallos, el turno pasa al otro equipo.",
-                    "Cuando todo está revelado o hay 3 fallos, el anfitrión asigna los puntos y pasa a la siguiente ronda."
-                ],
+                emptySlot: "Espacio vacío",
                 showAnswersModalTitle: "Prepárate para revelar",
                 showAnswersModalBody: "Se mostrarán todas las respuestas. Cierra los ojos. El anfitrión puede tomar una foto.",
                 showAnswersModalConfirm: "Revelar",
@@ -187,7 +154,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Cerrar",
                 hostModalTitle: "Instrucciones para el anfitrión",
                 hostModalBody: "Por favor, designen un anfitrión y formen dos equipos. El anfitrión verá las respuestas, revelará los aciertos en el tablero y marcará los fallos.",
-                continue: "Continuar"
+                continue: "Continuar",
+                notice: "Aviso"
             }
         },
         it: {
@@ -197,10 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Round",
                 start: "Inizia il gioco",
-                howTo: "Come si gioca?",
+                start: "Inizia il gioco",
                 language: "Lingua",
-                helpButtonFull: "Come si gioca?",
-                helpButtonShort: "?",
                 showAnswers: "Mostra risposte",
                 hideAnswers: "Nascondi risposte",
                 roundPoints: "Punti del round",
@@ -210,14 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Squadra Elfo",
                 hiddenAnswer: "Risposta nascosta",
                 emptySlot: "Spazio vuoto",
-                helpTitle: "Come si gioca?",
-                helpSteps: [
-                    'L’host usa "Mostra risposte"; i giocatori chiudono gli occhi.',
-                    "Le squadre indovinano a turno. Un click corretto rivela la carta e aggiunge punti.",
-                    "In caso di errore, clicca una X della squadra; diventa rossa.",
-                    "Con tre errori il turno passa all'altra squadra.",
-                    "Quando tutto è rivelato o dopo 3 errori, l'host assegna i punti e passa al round successivo."
-                ],
+                emptySlot: "Spazio vuoto",
                 showAnswersModalTitle: "Pronto a rivelare",
                 showAnswersModalBody: "Tutte le risposte saranno mostrate. Chiudete gli occhi. L’host può fare una foto.",
                 showAnswersModalConfirm: "Mostra",
@@ -233,7 +192,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Chiudi",
                 hostModalTitle: "Istruzioni per il conduttore",
                 hostModalBody: "Nominate un conduttore e formate due squadre. Il conduttore vedrà le risposte, rivelerà quelle corrette e segnerà gli errori.",
-                continue: "Continua"
+                continue: "Continua",
+                notice: "Avviso"
             }
         },
         pt: {
@@ -243,10 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "Christmas Feud",
                 roundLabel: "Rodada",
                 start: "Iniciar jogo",
-                howTo: "Como jogar?",
+                start: "Iniciar jogo",
                 language: "Idioma",
-                helpButtonFull: "Como jogar?",
-                helpButtonShort: "?",
                 showAnswers: "Mostrar respostas",
                 hideAnswers: "Ocultar respostas",
                 roundPoints: "Pontos da rodada",
@@ -256,14 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 elfTeam: "Equipe Elfo",
                 hiddenAnswer: "Resposta oculta",
                 emptySlot: "Espaço vazio",
-                helpTitle: "Como jogar?",
-                helpSteps: [
-                    'O anfitrião usa "Mostrar respostas"; os jogadores fecham os olhos.',
-                    "Os times chutam em turno. Acertar revela a carta e soma pontos.",
-                    "Errando, clique em um X do time; fica vermelho.",
-                    "Com três erros a vez passa ao outro time.",
-                    "Quando tudo abre ou há 3 erros, o anfitrião dá os pontos e passa à próxima rodada."
-                ],
+                emptySlot: "Espaço vazio",
                 showAnswersModalTitle: "Preparar para revelar",
                 showAnswersModalBody: "Todas as respostas serão mostradas. Fechem os olhos. O anfitrião pode tirar uma foto.",
                 showAnswersModalConfirm: "Revelar",
@@ -279,7 +230,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 close: "Fechar",
                 hostModalTitle: "Instruções para o anfitrião",
                 hostModalBody: "Por favor, nomeiem um anfitrião e formem duas equipes. O anfitrião verá as respostas, revelará os acertos no quadro e marcará os erros.",
-                continue: "Continuar"
+                continue: "Continuar",
+                notice: "Aviso"
             }
         }
     };
@@ -309,24 +261,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const elfScoreEl = document.getElementById('elf-score');
     const roundPointsTotalEl = document.getElementById('round-points-total');
     const showAnswersBtn = document.getElementById('show-answers-btn');
-    const helpBtn = document.getElementById('help-btn');
-    const helpModal = document.getElementById('help-modal');
-    const helpSteps = document.getElementById('help-steps');
-    const helpTitle = document.getElementById('help-title');
+
     const closeBtns = document.querySelectorAll('.close-btn');
+
     const santaStrikesContainer = document.getElementById('santa-strikes');
     const elfStrikesContainer = document.getElementById('elf-strikes');
     const pointsToSantaBtn = document.getElementById('points-to-santa');
     const pointsToElfBtn = document.getElementById('points-to-elf');
     const roundPointsLabel = document.getElementById('round-points-label');
-    const helpFullText = helpBtn.querySelector('.help-full');
-    const helpShortText = helpBtn.querySelector('.help-short');
+
     const santaTeamLabel = document.getElementById('santa-team-label');
     const elfTeamLabel = document.getElementById('elf-team-label');
 
     const introOverlay = document.getElementById('intro-overlay');
     const startGameBtn = document.getElementById('start-game-btn');
-    const introHowToBtn = document.getElementById('intro-howto-btn');
+
     const introLanguageBtn = document.getElementById('intro-language-btn');
     const introTitle = document.getElementById('intro-title');
     const introTagline = document.getElementById('intro-tagline');
@@ -350,6 +299,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const hostModalTitle = document.getElementById('host-modal-title');
     const hostModalBody = document.getElementById('host-modal-body');
     const hostModalConfirm = document.getElementById('host-modal-confirm');
+
+    const noPointsModal = document.getElementById('no-points-modal');
+    const noPointsTitle = document.getElementById('no-points-title');
+    const noPointsBody = document.getElementById('no-points-body');
+    const noPointsClose = document.getElementById('no-points-close');
 
     init();
 
@@ -475,21 +429,20 @@ document.addEventListener('DOMContentLoaded', () => {
         introTitle.textContent = strings.title;
         introTagline.textContent = languagePacks[currentLanguage].introTagline;
         startGameBtn.textContent = strings.start;
-        introHowToBtn.textContent = strings.howTo;
+        introTitle.textContent = strings.title;
+        introTagline.textContent = languagePacks[currentLanguage].introTagline;
+        startGameBtn.textContent = strings.start;
         introLanguageBtn.textContent = strings.language;
 
         gameTitleEl.textContent = strings.title;
         roundLabelEl.textContent = strings.roundLabel;
-        helpFullText.textContent = strings.helpButtonFull;
-        helpShortText.textContent = strings.helpButtonShort;
         showAnswersBtn.textContent = adminPreviewActive ? strings.hideAnswers : strings.showAnswers;
         roundPointsLabel.textContent = strings.roundPoints;
         pointsToSantaBtn.textContent = strings.pointsToSanta;
         pointsToElfBtn.textContent = strings.pointsToElf;
         santaTeamLabel.textContent = strings.santaTeam;
         elfTeamLabel.textContent = strings.elfTeam;
-        helpTitle.textContent = strings.helpTitle;
-        renderHelpSteps(strings.helpSteps);
+        elfTeamLabel.textContent = strings.elfTeam;
         languageModalTitle.textContent = strings.language;
         showAnswersTitle.textContent = strings.showAnswersModalTitle;
         showAnswersBody.textContent = strings.showAnswersModalBody;
@@ -502,6 +455,9 @@ document.addEventListener('DOMContentLoaded', () => {
         hostModalBody.textContent = strings.hostModalBody;
         hostModalConfirm.textContent = strings.continue;
 
+        noPointsTitle.textContent = strings.notice;
+        noPointsClose.textContent = strings.close;
+
         if (resetGame) {
             resetGameState();
         } else {
@@ -510,17 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderHelpSteps(steps) {
-        helpSteps.innerHTML = '';
-        const wrapper = document.createElement('div');
-        wrapper.className = 'help-steps-list';
-        steps.forEach(text => {
-            const p = document.createElement('p');
-            p.textContent = text;
-            wrapper.appendChild(p);
-        });
-        helpSteps.appendChild(wrapper);
-    }
+
 
     // --- GAME LOGIC ---
     function prepareQuestionSet() {
@@ -744,12 +690,8 @@ document.addEventListener('DOMContentLoaded', () => {
             toggleModal(showAnswersModal, false);
         });
 
-        helpBtn.addEventListener('click', () => {
-            toggleModal(helpModal, true);
-        });
-
-        introHowToBtn.addEventListener('click', () => {
-            toggleModal(helpModal, true);
+        showAnswersCancel.addEventListener('click', () => {
+            toggleModal(showAnswersModal, false);
         });
 
         startGameBtn.addEventListener('click', () => {
@@ -784,6 +726,10 @@ document.addEventListener('DOMContentLoaded', () => {
             showIntroOverlay(true);
         });
 
+        noPointsClose.addEventListener('click', () => {
+            toggleModal(noPointsModal, false);
+        });
+
         window.addEventListener('click', (e) => {
             if (e.target.classList.contains('modal')) {
                 e.target.style.display = 'none';
@@ -797,7 +743,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 triggerBumpAnimation(santaScoreEl);
                 nextRound();
             } else {
-                alert(languagePacks[currentLanguage].ui.noPointsAlert);
+                noPointsBody.textContent = languagePacks[currentLanguage].ui.noPointsAlert;
+                toggleModal(noPointsModal, true);
             }
         });
 
@@ -808,7 +755,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 triggerBumpAnimation(elfScoreEl);
                 nextRound();
             } else {
-                alert(languagePacks[currentLanguage].ui.noPointsAlert);
+                noPointsBody.textContent = languagePacks[currentLanguage].ui.noPointsAlert;
+                toggleModal(noPointsModal, true);
             }
         });
     }
@@ -819,7 +767,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Önce scale'i sıfırla ki gerçek boyutu ölçebilelim
         container.style.transform = 'translate(-50%, -50%) scale(1)';
-        
+
         // Bir frame bekle ki tarayıcı boyutları yeniden hesaplasın
         requestAnimationFrame(() => {
             // Container'ın gerçek boyutlarını al
@@ -829,17 +777,17 @@ document.addEventListener('DOMContentLoaded', () => {
             // Mevcut viewport boyutları
             const viewportWidth = window.innerWidth;
             const viewportHeight = window.innerHeight;
-            
+
             // Her iki yön için scale hesapla (%96 kullan, %4 boşluk)
             const scaleX = (viewportWidth * 0.96) / containerWidth;
             const scaleY = (viewportHeight * 0.96) / containerHeight;
-            
+
             // En küçük scale'i kullan (hem genişliğe hem yüksekliğe sığsın)
             const scale = Math.min(scaleX, scaleY);
 
             // Scale'i uygula (merkez pozisyonunu koru)
             container.style.transform = `translate(-50%, -50%) scale(${scale})`;
-            
+
             console.log('Scale applied:', scale, 'Container:', containerWidth, 'x', containerHeight, 'Viewport:', viewportWidth, 'x', viewportHeight);
         });
     }

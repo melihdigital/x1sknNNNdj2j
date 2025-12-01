@@ -33,7 +33,6 @@
                 <p id="intro-tagline">Holiday trivia fun for everyone</p>
                 <div class="intro-actions">
                     <button id="start-game-btn">Yarışmaya Başla</button>
-                    <button id="intro-howto-btn">Nasıl oynanır?</button>
                     <button id="intro-language-btn">Dil seçimi</button>
                 </div>
             </div>
@@ -51,10 +50,6 @@
             </div>
             <div class="header-buttons">
                 <button id="show-answers-btn">Show Answers</button>
-                <button id="help-btn">
-                    <span class="help-full">How to play?</span>
-                    <span class="help-short">?</span>
-                </button>
             </div>
         </header>
 
@@ -111,14 +106,7 @@
             </aside>
         </div>
 
-        <!-- Help Modal -->
-        <div id="help-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <h2 id="help-title">How to play?</h2>
-                <div id="help-steps"></div>
-            </div>
-        </div>
+
 
         <!-- Language Modal -->
         <div id="language-modal" class="modal">
@@ -167,6 +155,19 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- No Points Modal -->
+    <div id="no-points-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="no-points-title">Notice</h2>
+            <p id="no-points-body">No points yet!</p>
+            <div class="modal-actions">
+                <button id="no-points-close">Close</button>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script src="questions-en.js"></script>
