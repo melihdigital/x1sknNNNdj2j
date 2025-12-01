@@ -359,8 +359,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setLanguage(DEFAULT_LANG, true);
         attachEventListeners();
         showIntroOverlay(true);
-        window.addEventListener('resize', handleResize);
-        handleResize();
     }
 
     // --- DATA LOADING ---
@@ -816,29 +814,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleResize() {
-        const container = document.querySelector('.game-container');
-        if (!container) return;
-
-        // Reset transform to get accurate measurements (though width is fixed now)
-        container.style.transform = 'none';
-
-        const padding = 20;
-        const availableWidth = window.innerWidth - padding;
-        const availableHeight = window.innerHeight - padding;
-
-        const contentWidth = container.offsetWidth; // Should be ~1200px
-        const contentHeight = container.offsetHeight;
-
-        // Safety margin to prevent content touching edges (0.95 = 5% gap)
-        const safetyMargin = 0.95;
-
-        // Calculate scale to fit with margin
-        const scale = Math.min(
-            (availableWidth / contentWidth) * safetyMargin,
-            (availableHeight / contentHeight) * safetyMargin
-        );
-
-        // Always apply scale to ensure it fits with margin
-        container.style.transform = `translate(-50%, -50%) scale(${scale})`;
+    // CSS responsive design handles all sizing
+    // No manual scaling needed
     }
 });
