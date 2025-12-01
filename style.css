@@ -16,8 +16,9 @@
 }
 
 html {
-    font-size: clamp(12px, 1.2vw + 8px, 16px);
-    overflow-x: hidden;
+    font-size: 16px;
+    overflow: hidden;
+    height: 100%;
 }
 
 body {
@@ -26,14 +27,18 @@ body {
     background-image: radial-gradient(circle, var(--card-white) 1px, transparent 1px);
     background-size: 28px 28px;
     color: var(--text-dark);
-    min-height: 100vh;
-    min-height: 100dvh;
-    width: 100%;
-    overflow-x: hidden;
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding: max(12px, env(safe-area-inset-top, 12px)) max(12px, env(safe-area-inset-right, 12px)) max(12px, env(safe-area-inset-bottom, 12px)) max(12px, env(safe-area-inset-left, 12px));
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* Intro Overlay */
@@ -55,24 +60,24 @@ body {
 .intro-card {
     background: var(--card-white);
     color: var(--text-dark);
-    padding: clamp(24px, 5vw, 36px) clamp(20px, 4vw, 32px);
+    padding: 36px 32px;
     border-radius: 18px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     max-width: 480px;
-    width: 100%;
+    width: 90%;
 }
 
 .intro-card h1 {
     font-family: 'Mountains of Christmas', cursive;
     color: var(--bg-red);
-    font-size: clamp(1.8rem, 5vw, 2.4rem);
+    font-size: 2.4rem;
     margin-bottom: 8px;
 }
 
 .intro-card p {
     margin-bottom: 20px;
-    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-size: 1rem;
 }
 
 .intro-actions {
@@ -85,9 +90,9 @@ body {
     background-color: var(--bg-red);
     color: var(--card-white);
     border: none;
-    padding: clamp(12px, 2vw, 14px) clamp(16px, 3vw, 18px);
+    padding: 14px 18px;
     border-radius: 12px;
-    font-size: clamp(0.95rem, 2vw, 1.05rem);
+    font-size: 1.05rem;
     font-weight: 700;
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.2s;
@@ -98,18 +103,21 @@ body {
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
 }
 
-/* Game Container */
+/* Game Container - Fixed size, will be scaled by JS */
 .game-container {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
+    position: absolute;
+    width: 1200px;
+    min-height: 600px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    border-radius: clamp(12px, 2vw, 20px);
-    padding: clamp(14px, 2vw, 20px);
+    border-radius: 20px;
+    padding: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    /* Remove transform origin as we're not using scaling on this element */
+    transform-origin: center center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
 }
 
 /* Header Styles */
@@ -117,19 +125,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: clamp(20px, 3vw, 30px);
-    flex-wrap: wrap;
-    gap: 12px;
+    margin-bottom: 30px;
+    gap: 20px;
 }
 
 .title-card {
     display: flex;
     align-items: center;
     background-color: var(--card-white);
-    padding: clamp(8px, 1.5vw, 10px) clamp(16px, 2.5vw, 20px);
+    padding: 10px 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--bg-red);
 }
@@ -137,7 +144,6 @@ body {
 .title-card .tree-icon {
     margin-right: 10px;
     display: inline-block;
-    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 .title-card span {
@@ -146,15 +152,15 @@ body {
 }
 
 .round-indicator h2 {
-    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-size: 2rem;
     color: var(--card-white);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
 }
 
 .header-buttons {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .header-buttons button,
@@ -162,9 +168,9 @@ body {
     background-color: var(--card-white);
     color: var(--bg-red);
     border: none;
-    padding: clamp(10px, 1.5vw, 12px) clamp(16px, 2.5vw, 20px);
+    padding: 12px 20px;
     border-radius: 10px;
-    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.2s;
@@ -198,44 +204,45 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Content Area Layout */
+/* Content Area Layout - Fixed layout */
 .content-area {
     display: flex;
-    gap: clamp(15px, 3vw, 30px);
+    gap: 30px;
 }
 
 /* Game Board */
 .game-board {
-    flex-grow: 1;
+    flex: 1;
     min-width: 0;
 }
 
 .question-card {
     background-color: var(--card-white);
-    padding: clamp(16px, 2.5vw, 20px);
+    padding: 20px;
     border-radius: 15px;
     text-align: center;
-    margin-bottom: clamp(20px, 3vw, 30px);
+    margin-bottom: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .question-card h2 {
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    font-size: 1.8rem;
     color: var(--text-dark);
     line-height: 1.3;
 }
 
+/* Answers Grid - Always 2 columns */
 .answers-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
-    gap: clamp(12px, 2vw, 20px);
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-/* Answer Card Structure */
+/* Answer Card */
 .answer-card {
     background-color: transparent;
     width: 100%;
-    min-height: clamp(80px, 12vw, 100px);
+    height: 100px;
     cursor: pointer;
 }
 
@@ -245,7 +252,6 @@ body {
     height: 100%;
     text-align: center;
     overflow: hidden;
-    min-height: inherit;
 }
 
 .card-front,
@@ -253,14 +259,13 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    min-height: inherit;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+    font-size: 1.1rem;
     font-weight: 600;
-    padding: clamp(12px, 2.5vw, 20px);
+    padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border: 3px solid transparent;
     transition: transform 0.35s ease, box-shadow 0.3s, opacity 0.3s;
@@ -305,7 +310,7 @@ body {
 }
 
 .answer-rank {
-    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -317,21 +322,21 @@ body {
 }
 
 .answer-points {
-    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
-/* Side Panel */
+/* Side Panel - Fixed width */
 .side-panel {
-    width: clamp(250px, 25vw, 300px);
+    width: 300px;
     display: flex;
     flex-direction: column;
-    gap: clamp(15px, 2vw, 20px);
+    gap: 20px;
     flex-shrink: 0;
 }
 
 .team-card {
-    padding: clamp(16px, 2.5vw, 20px);
+    padding: 20px;
     border-radius: 15px;
     color: var(--text-dark);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -346,12 +351,12 @@ body {
 }
 
 .team-card h3 {
-    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-size: 1.5rem;
 }
 
 .score,
 .points-display {
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: 2rem;
     font-weight: 700;
     transition: transform 0.3s;
 }
@@ -359,20 +364,20 @@ body {
 .strikes-container {
     display: flex;
     justify-content: center;
-    gap: clamp(10px, 2vw, 15px);
+    gap: 15px;
 }
 
 .strike {
     display: inline-block;
-    width: clamp(35px, 5vw, 40px);
-    height: clamp(35px, 5vw, 40px);
-    line-height: clamp(35px, 5vw, 40px);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     background-color: var(--card-white);
     color: var(--text-dark);
     border-radius: 50%;
     font-weight: bold;
-    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-size: 1.5rem;
     cursor: pointer;
     transition: transform 0.2s, background-color 0.3s, color 0.3s;
 }
@@ -396,7 +401,7 @@ body {
 
 .round-points-area {
     background-color: var(--card-white);
-    padding: clamp(16px, 2.5vw, 20px);
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -409,7 +414,7 @@ body {
 }
 
 .round-points-header h3 {
-    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    font-size: 1.2rem;
     color: var(--text-dark);
 }
 
@@ -431,7 +436,7 @@ body {
     background-color: var(--elf-blue);
 }
 
-/* Modal Styles - FIX: Changed to fixed positioning */
+/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -449,7 +454,7 @@ body {
 .modal-content {
     background-color: var(--card-white);
     margin: 10vh auto;
-    padding: clamp(20px, 4vw, 30px);
+    padding: 30px;
     border: none;
     width: 90%;
     max-width: 500px;
@@ -469,7 +474,7 @@ body {
 .close-btn {
     color: #aaa;
     float: right;
-    font-size: clamp(24px, 4vw, 28px);
+    font-size: 28px;
     font-weight: bold;
     line-height: 1;
 }
@@ -492,12 +497,12 @@ body {
 
 .help-steps-list p {
     line-height: 1.5;
-    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-size: 1rem;
 }
 
 .language-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 12px;
     margin-top: 12px;
 }
@@ -507,10 +512,9 @@ body {
     background-color: var(--bg-red);
     color: var(--card-white);
     border: none;
-    padding: clamp(10px, 2vw, 12px);
+    padding: 12px;
     border-radius: 10px;
     font-weight: 700;
-    font-size: clamp(0.9rem, 1.5vw, 1rem);
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.2s;
 }
@@ -529,11 +533,10 @@ body {
 }
 
 .modal-actions button {
-    padding: clamp(8px, 1.5vw, 10px) clamp(14px, 2vw, 16px);
+    padding: 10px 16px;
     border: none;
     border-radius: 10px;
     font-weight: 700;
-    font-size: clamp(0.9rem, 1.5vw, 1rem);
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.2s;
 }
@@ -601,49 +604,7 @@ body {
     animation: bump 0.4s ease-out;
 }
 
-/* Responsive Breakpoints */
-@media (max-width: 1100px) {
-    .content-area {
-        flex-direction: column;
-    }
-    
-    .side-panel {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .side-panel > * {
-        flex: 1 1 calc(50% - 10px);
-        min-width: 250px;
-    }
-}
-
-@media (max-width: 768px) {
-    .answers-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .side-panel > * {
-        flex: 1 1 100%;
-    }
-    
-    .main-header {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    
-    .title-card {
-        width: 100%;
-        justify-content: center;
-    }
-    
-    .header-buttons {
-        width: 100%;
-        justify-content: center;
-    }
-}
-
+/* Very small screens - show help short text */
 @media (max-width: 640px) {
     #help-btn .help-full {
         display: none;
@@ -651,35 +612,5 @@ body {
     
     #help-btn .help-short {
         display: inline;
-    }
-    
-    #help-btn {
-        padding: 12px;
-        min-width: 44px;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 8px;
-    }
-    
-    .game-container {
-        padding: 12px;
-    }
-    
-    .modal-content {
-        width: 95%;
-        margin: 5vh auto;
-    }
-}
-
-/* Print Styles */
-@media print {
-    .header-buttons,
-    .modal,
-    .intro-overlay {
-        display: none !important;
     }
 }

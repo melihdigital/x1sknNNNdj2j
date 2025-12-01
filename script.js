@@ -814,7 +814,41 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleResize() {
-    // CSS responsive design handles all sizing
-    // No manual scaling needed
+        const container = document.querySelector('.game-container');
+        if (!container) return;
+
+        // Önce scale'i sıfırla ki gerçek boyutu ölçebilelim
+        container.style.transform = 'translate(-50%, -50%) scale(1)';
+        
+        // Bir frame bekle ki tarayıcı boyutları yeniden hesaplasın
+        requestAnimationFrame(() => {
+            // Container'ın gerçek boyutlarını al
+            const containerWidth = container.offsetWidth;
+            const containerHeight = container.offsetHeight;
+
+            // Mevcut viewport boyutları
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            
+            // Her iki yön için scale hesapla (%96 kullan, %4 boşluk)
+            const scaleX = (viewportWidth * 0.96) / containerWidth;
+            const scaleY = (viewportHeight * 0.96) / containerHeight;
+            
+            // En küçük scale'i kullan (hem genişliğe hem yüksekliğe sığsın)
+            const scale = Math.min(scaleX, scaleY);
+
+            // Scale'i uygula (merkez pozisyonunu koru)
+            container.style.transform = `translate(-50%, -50%) scale(${scale})`;
+            
+            console.log('Scale applied:', scale, 'Container:', containerWidth, 'x', containerHeight, 'Viewport:', viewportWidth, 'x', viewportHeight);
+        });
     }
+
+    // Sayfa yüklendiğinde ve her resize'da çalıştır
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('orientationchange', handleResize);
+    document.addEventListener('DOMContentLoaded', handleResize);
+
+    // İlk yükleme için timeout ekle (container render olduktan sonra)
+    setTimeout(handleResize, 100);
 });
